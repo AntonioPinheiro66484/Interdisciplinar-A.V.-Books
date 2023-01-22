@@ -1,0 +1,38 @@
+.subfooter{
+    display: flex;
+    background-color: #4c3d5f;
+    width: 100%;
+    height: 100px;
+    margin-top: 100px;
+}
+
+.logo{
+    padding-left: 40px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.nomelogo{
+    color:#e9ed37;
+    font-weight: bold;
+    align-items: center;
+    display: flex;
+    padding: 32px;
+    font-size: 24px;
+}
+
+.caixaIcons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 650px;
+}
+
+.icons{
+    margin: 20px;
+    width: 50px;
+    height: 50px;
+}

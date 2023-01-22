@@ -1,0 +1,38 @@
+.navBar{
+    display:flex;
+    justify-content: center;
+    align-items: flex-end;
+    background-color: #fff671;
+    color:#8163a6;
+    font-weight: bold;
+}
+.paiNavItem{
+    display: flex;
+}
+.item{
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
+    display: inline-flex;
+    border:2px solid #6b0ee2 ;
+    border-top: #6b0ee2;
+    border-bottom: #6b0ee2;
+    border-left: #6b0ee2;
+    margin: 10px 30px 10px 0px;
+    padding-right: 30px;
+}
+
+li:last-child{
+    border:2px solid #6b0ee2 ;
+    border-bottom: #6b0ee2;
+    border-right: #6b0ee2;
+    border-top: #6b0ee2;
+    border-left: #6b0ee2;
+    margin: 10px 30px 10px 0px;
+    padding-right: 25px;
+
+}
+
+.iconMenu{
+    display: flex;
+    align-items: flex-start;
+}
