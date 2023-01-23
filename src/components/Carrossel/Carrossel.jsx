@@ -4,6 +4,8 @@ import Slider from "react-slick";
 import Livro1 from '../../assets/images/Livros/A Arte da Guerra.png'
 import Livro2 from '../../assets/images/Livros/Cemitério Maldito.png'
 import Livro3 from '../../assets/images/Livros/Gravity Falls - O diário perdido.png'
+import Livro4 from '../../assets/images/Livros/It- A coisa.png'
+
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import Botao from "../Botoes/Botao"
@@ -58,7 +60,7 @@ const Carrossel = ()=>{
             <div className={styles.borda}>
             <div className={styles.propriedades}>
               <img className={styles.livro} src={Livro2}></img>
-              <h3 className={styles.nomeLivro}>Comitério Maldito</h3>
+              <h3 className={styles.nomeLivro}>Cemitério Maldito</h3>
               <h3 className={styles.precoLivro}>R$ 60,00</h3>
               <Botao/>
             </div>
@@ -79,8 +81,8 @@ const Carrossel = ()=>{
           <div className={styles.card}>
             <div className={styles.borda}>
             <div className={styles.propriedades}>
-              <img className={styles.livro} src={Livro3}></img>
-              <h3 className={styles.nomeLivro}>Gravity Falls</h3>
+              <img className={styles.livro} src={Livro4}></img>
+              <h3 className={styles.nomeLivro}>It - A Coisa</h3>
               <h3 className={styles.precoLivro}>R$ 60,00</h3>
               <Botao/>
             </div>
@@ -90,8 +92,8 @@ const Carrossel = ()=>{
           <div className={styles.card}>
             <div className={styles.borda}>
             <div className={styles.propriedades}>
-              <img className={styles.livro} src={Livro3}></img>
-              <h3 className={styles.nomeLivro}>Gravity Falls</h3>
+              <img className={styles.livro} src={Livro1}></img>
+              <h3 className={styles.nomeLivro}>A Arte da Guerra</h3>
               <h3 className={styles.precoLivro}>R$ 60,00</h3>
               <Botao/>
             </div>
@@ -102,8 +104,8 @@ const Carrossel = ()=>{
           <div className={styles.card}>
             <div className={styles.borda}>
             <div className={styles.propriedades}>
-              <img className={styles.livro} src={Livro3}></img>
-              <h3 className={styles.nomeLivro}>Gravity Falls</h3>
+              <img className={styles.livro} src={Livro2}></img>
+              <h3 className={styles.nomeLivro}>Cemitério Maldito</h3>
               <h3 className={styles.precoLivro}>R$ 60,00</h3>
               <Botao/>
             </div>
@@ -126,8 +128,8 @@ const Carrossel = ()=>{
           <div className={styles.card}>
             <div className={styles.borda}>
             <div className={styles.propriedades}>
-              <img className={styles.livro} src={Livro3}></img>
-              <h3 className={styles.nomeLivro}>Gravity Falls</h3>
+              <img className={styles.livro} src={Livro4}></img>
+              <h3 className={styles.nomeLivro}>It - A coisa</h3>
               <h3 className={styles.precoLivro}>R$ 60,00</h3>
               <Botao/>
             </div>
@@ -138,8 +140,41 @@ const Carrossel = ()=>{
           <div className={styles.card}>
             <div className={styles.borda}>
             <div className={styles.propriedades}>
+              <img className={styles.livro} src={Livro1}></img>
+              <h3 className={styles.nomeLivro}>A Arte da Guerra</h3>
+              <h3 className={styles.precoLivro}>R$ 60,00</h3>
+              <Botao/>
+            </div>
+            </div>
+          </div>
+
+          <div className={styles.card}>
+            <div className={styles.borda}>
+            <div className={styles.propriedades}>
+              <img className={styles.livro} src={Livro2}></img>
+              <h3 className={styles.nomeLivro}>Cemitério Maldito</h3>
+              <h3 className={styles.precoLivro}>R$ 60,00</h3>
+              <Botao/>
+            </div>
+            </div>
+          </div>
+
+          <div className={styles.card}>
+            <div className={styles.borda}>
+            <div className={styles.propriedades}>
               <img className={styles.livro} src={Livro3}></img>
               <h3 className={styles.nomeLivro}>Gravity Falls</h3>
+              <h3 className={styles.precoLivro}>R$ 60,00</h3>
+              <Botao/>
+            </div>
+            </div>
+          </div>
+
+          <div className={styles.card}>
+            <div className={styles.borda}>
+            <div className={styles.propriedades}>
+              <img className={styles.livro} src={Livro4}></img>
+              <h3 className={styles.nomeLivro}>It - A Coisa</h3>
               <h3 className={styles.precoLivro}>R$ 60,00</h3>
               <Botao/>
             </div>
@@ -150,5 +185,7 @@ const Carrossel = ()=>{
       </div>
     );
   }
+
+  
 
 export default Carrossel
