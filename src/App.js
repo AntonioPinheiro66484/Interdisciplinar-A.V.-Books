@@ -4,14 +4,13 @@ import NavBar from './components/NavBar/NavBar'
 import Body from './components/Body/Body'
 import PreFooter from './components/Footer/Prefooter/PreFooter'
 import Footer from './components/Footer/Footer'
-import Carousel from './components/Carrossel/Carrossel'
+import Carrossel from './components/Carrossel/Carrossel';
 
 function App() {
   return (
     <div className="App">
        <Header></Header>
         <NavBar></NavBar>
-        <Carousel></Carousel>
         <Body></Body>
         <PreFooter></PreFooter>
         <Footer></Footer>
