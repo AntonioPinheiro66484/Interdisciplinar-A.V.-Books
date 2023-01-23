@@ -25,15 +25,19 @@
     margin-bottom: -20px ;
     list-style: none;
 }
+
 .lista .items .titulo{
+    font-family: Helvetica, Arial, sans-serif !important;
     text-align: center;
     margin-bottom: 20px;
     font-size: 24px;
     text-align: center;
     display: flex;
+    
 }
 
 .item{
+    font-family: Helvetica, arial , sans-serif !important;
     display: flex;
     padding-bottom: 40px;
     text-align: center;
