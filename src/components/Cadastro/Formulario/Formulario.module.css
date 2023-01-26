@@ -1,0 +1,15 @@
+.caixa{
+    display: flex;
+    align-items: center;
+}
+.formulario{
+    display: flex;
+    width: 200px;
+    height: 1000px;
+    flex-direction: column;
+    background-color:#6B0EE2;
+}
+
+.titulos{
+
+}
