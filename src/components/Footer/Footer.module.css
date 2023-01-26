@@ -1,7 +1,7 @@
 .footer{
+    width: 100%;
     height: 250px;
     display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content: center;
     background-color: #6b0ee2;
@@ -11,7 +11,7 @@
 
 .caixa{
     display: flex;
-    flex-direction: co;
+    flex-direction: row;
 }
 
 .lista{
