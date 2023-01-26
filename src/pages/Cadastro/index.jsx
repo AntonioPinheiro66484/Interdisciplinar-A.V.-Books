@@ -9,7 +9,11 @@ import styles from "./Cadastro.module.css"
 const Cadastro =()=>{
     return (
         <div>
-
+            <Header></Header>
+            <NavBar></NavBar>
+            <Formulario></Formulario>
+            <PreFooter></PreFooter>
+            <Footer></Footer>
         </div>
     )
 }
