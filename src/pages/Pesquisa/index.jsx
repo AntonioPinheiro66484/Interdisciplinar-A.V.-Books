@@ -12,6 +12,15 @@ const Pesquisa =()=>{
         <div>
             <Header></Header>
             <NavBar></NavBar>
+            <div className={styles.breadcrumb}>
+                <ul className={styles.breadcrumbNavigation}>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/Pesquisa">Pesquisa</a></li>
+                </ul>
+
+            </div>
+
+
              <div className={styles.produtosPesquisa}>
                     <Produtos/>
                     <Produtos/>

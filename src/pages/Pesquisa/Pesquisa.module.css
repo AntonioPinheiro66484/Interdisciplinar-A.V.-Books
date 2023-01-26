@@ -1,4 +1,37 @@
+.breadcrumb{
+    padding-top: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 800px;
+}
+
+.breadcrumbNavigation{
+    padding: 10px 18px;
+   
+}
+.breadcrumbNavigation>li{
+    display:inline
+}
+.breadcrumbNavigation>li>a{
+    color: #4c3d5f;
+    font-size: 18px;
+    text-decoration: none;
+}
+.breadcrumbNavigation>li>a:hover{
+    text-decoration: underline;
+}
+
+.breadcrumbNavigation li+li::before {
+    padding: 10px;
+    content: ">";
+    color: gray;
+}
+
 .produtosPesquisa{
-    margin-left: 90px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 300px;
+}
+.subfooter{
     
 }
