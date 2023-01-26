@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from './DetalhesProduto.module.css'
-import Livro1 from '../assets/images/Livros/Gravity Falls - O diário perdido.png'
+import Livro1 from '../../assets/images/Livros/Gravity Falls - O diário perdido.png'
 
 const Body = ()=>{
     return(<div className={styles.body}>
