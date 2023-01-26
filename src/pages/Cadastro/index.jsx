@@ -8,7 +8,7 @@ import styles from "./Cadastro.module.css"
 
 const Cadastro =()=>{
     return (
-        <div>
+        <div className={styles.cadastro}>
             <Header></Header>
             <NavBar></NavBar>
             <Formulario></Formulario>
