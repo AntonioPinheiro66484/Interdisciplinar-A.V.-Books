@@ -6,6 +6,7 @@ import Body from "../../components/Body/Body";
 import PreFooter from "../../components/Footer/Prefooter/PreFooter";
 import Footer from "../../components/Footer/Footer";
 import Produtos from "../../components/Produtos/Produtos";
+import Filtros from "../../components/Filtros/Filtros";
 
 const Pesquisa =()=>{
     return(
@@ -19,7 +20,11 @@ const Pesquisa =()=>{
                 </ul>
 
             </div>
-
+            
+            <div className={styles.conteudo}>
+            <div className={styles.caixaFiltros}>
+                <Filtros/>
+            </div>
 
              <div className={styles.produtosPesquisa}>
                     <Produtos/>
@@ -27,6 +32,8 @@ const Pesquisa =()=>{
                     <Produtos/>
                     <Produtos/>
              </div>
+             </div>
+             
             <PreFooter></PreFooter>
             <Footer></Footer>
         </div>

@@ -1,0 +1,37 @@
+.filtros{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #4c3d5f;
+    font-size: 20px;
+    padding-bottom: 20%;
+}
+.info{
+    margin-top: 20px;
+    font-size: 15px;
+}
+.tituloSelecionaveis{
+    font-size: 18px;
+    margin-top: 50%;
+}
+.categorias{
+    border: 2px solid #8163A6;
+    margin-top: 30px;
+    padding: 10%;
+    font-size: 15px;
+}
+.tituloTexts{
+    font-size: 18px;
+    margin-top: 50%;
+}
+.barraPesquisa{
+    height: 10px;
+    margin-top: 10%;
+    border: 2px solid #8163A6;
+    border-radius: 10px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.caixaLupa{
+    height: 10px;
+    width: 30px;
+    background-color: #8163A6;
+}

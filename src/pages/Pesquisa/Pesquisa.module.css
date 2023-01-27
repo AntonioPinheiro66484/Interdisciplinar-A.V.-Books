@@ -25,13 +25,23 @@
     content: ">";
     color: gray;
 }
-
+.conteudo{
+    display: flex;
+    flex-direction: row;
+}
+.caixaFiltros{
+    height: fit-content;
+    margin-top: 20px;
+    border: 2px solid #8163A6;
+    border-radius: 5px;
+    margin-left: 10px;
+    width: 100px;
+    padding: 10px 5%;
+    align-items: center;
+}
 .produtosPesquisa{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-left: 300px;
-}
-.subfooter{
-    
+    margin-left: 50px;
 }
