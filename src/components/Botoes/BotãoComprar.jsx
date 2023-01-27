@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from './BotaoComprar.module.css'
 
-const Botao = () =>{
+const BotaoComprar = () =>{
     return(
             <button className={styles.botao}>COMPRAR</button>
     )    
