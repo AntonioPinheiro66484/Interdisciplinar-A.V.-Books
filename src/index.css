@@ -48,7 +48,7 @@ input:focus, textarea:focus{
 
 input::placeholder, textarea::placeholder{
   font-family: "Montserrat", sans-serif;
-  color: #aaa;
+  color: yellow;
 }
 
 input, textarea{
