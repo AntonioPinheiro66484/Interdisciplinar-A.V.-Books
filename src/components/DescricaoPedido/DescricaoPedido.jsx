@@ -13,6 +13,11 @@ const Pedido = () => {
       <BotaoComprar/>
       <div className={styles.localizacao}>Onde você está?</div>
       <div className={styles.localizacaodescricao}>Informe sua localização para calcularmos os valores de frete e localizarmos possíveis pontos de retirada.</div>
+      <div className={styles.inputs}>
+            <div className={styles.campoTextoEndereço}>
+                <input className={styles.input} type="text" placeholder="Digite o seu CEP..."></input>
+            </div>
+        </div>
     </div>
   )
 }
