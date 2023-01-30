@@ -1,11 +1,5 @@
 import './App.css';
-import Header from './components/Header/Header'
-import NavBar from './components/NavBar/NavBar'
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'
-import Body from './components/Body/Body'
-import PreFooter from './components/Footer/Prefooter/PreFooter'
-import Footer from './components/Footer/Footer'
-import Carrossel from './components/Carrossel/Carrossel'
 import Home from './pages/Home'
 import Cadastro from './pages/Cadastro'
 import DetalhesProduto from './pages/DetalhesProduto'
