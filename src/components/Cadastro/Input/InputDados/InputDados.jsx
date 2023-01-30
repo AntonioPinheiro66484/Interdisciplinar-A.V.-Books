@@ -4,6 +4,7 @@ import styles from "./InputDados.module.css"
 const InputDados =()=>{
     return(
         <div className={styles.inputs}>
+        <div className={styles.caixa}>
             <div className={styles.campoTexto}>
                 <label class={styles.label}>Nome</label>
                 <input className={styles.input} type="text" placeholder="Digite seu nome..."></input>
@@ -23,7 +24,7 @@ const InputDados =()=>{
                 <label class={styles.label}>Senha</label>
                 <input className={styles.input} type="password" placeholder="Digite sua senha..."></input>
             </div>
-
+        </div>
            
         </div>
         )

@@ -9,9 +9,9 @@ const Formulario = ()=>{
     return(<div className={styles.caixa}>
             <div className={styles.formulario}>
                 <h3 className={styles.titulo1}> Cadastre-se </h3>
-                <InputDados></InputDados>
+                    <InputDados/>
                 <h4 className={styles.titulo2}> Endereço </h4>
-                <InputEndereco></InputEndereco>
+                    <InputEndereco></InputEndereco>
                 <div className={styles.caixaBotao}>
                     <BotaoCadastrar></BotaoCadastrar>
                 </div>
