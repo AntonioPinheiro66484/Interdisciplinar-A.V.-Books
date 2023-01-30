@@ -4,34 +4,81 @@
     font-size: 20px;
     padding-bottom: 20%;
 }
+.filtro{
+    height: 25px;
+    width: 25px;
+}
+.caixaFiltro{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 2%;
+    margin-left: 27.5%;
+}
 .info{
     margin-top: 20px;
     font-size: 15px;
 }
 .tituloSelecionaveis{
     font-size: 18px;
-    margin-top: 50%;
+    margin-top: 30%;
 }
 .categorias{
-    border: 2px solid #8163A6;
+    display: flex;
+    flex-direction: column;
     margin-top: 30px;
-    padding: 10%;
     font-size: 15px;
+    
+}
+.selecionavel{
+    display: flex;
+    flex-direction: row;
+    margin-left: 30px;
+}
+.checkBox{
+    border-color: #ffffff;
+}
+.opcoes{
+    padding: 3px;
 }
 .tituloTexts{
     font-size: 18px;
-    margin-top: 50%;
+    margin-top: 20%;
+    text-align: justify;
+    margin-left: 25px;
+}
+.areaTexts{
+  display: flex;
+  flex-direction: column;
+  margin-right: 70px;
+  width: 200px;
+  
+  
 }
 .barraPesquisa{
-    height: 10px;
+    height: 21px;
+    margin-left: 10px;
     margin-top: 10%;
     border: 2px solid #8163A6;
     border-radius: 10px;
     border-top-right-radius: 0;
     border-bottom-right-radius: 0;
 }
+.caixa{
+    display: flex;
+    flex-direction: row;
+}
 .caixaLupa{
-    height: 10px;
-    width: 30px;
+    margin-top: 10%;
+    height: 21.3px;
     background-color: #8163A6;
+    border: 2px solid #8163A6;
+    border-radius: 5px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+.lupa{
+    display: flex;
+    width: 20px;
+    height: 20px;
 }
