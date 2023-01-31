@@ -8,6 +8,9 @@ import Footer from "../../components/Footer/Footer";
 import Produtos from "../../components/Produtos/Produtos";
 import Filtros from "../../components/Filtros/Filtros";
 
+
+
+
 const Pesquisa =()=>{
     return(
         <div>
