@@ -6,20 +6,28 @@
     margin-top: 8%;
     display: flex;
     width: 700px;
-    height: 1200px;
+    height: 1300px;
     flex-direction: column;
     background-color:#6B0EE2;
     border-radius: 4px;
 }
 
 .titulo1{
+    font-family: Arial, Helvetica, sans-serif;
     color: #F9FAC4;
     font-size: 32px;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    font-weight: bold;
 }
 
 .titulo2{
+    font-family: Arial, Helvetica, sans-serif;
     color: #F9FAC4;
-    font-size: 24px;
+    font-size: 28px;
+    margin-top: 5%;
+    margin-bottom: 2.5%;
+    font-weight: bold;
 }
 
 .caixaBotao{
