@@ -1,4 +1,4 @@
-import React from 'react';
+import React from 'react'
 import styles from './DescricaoPedido.module.css'
 import BotaoAdicionar from '../Botoes/BotãoAdicionar'
 import BotaoComprar from '../Botoes/BotãoComprar'
