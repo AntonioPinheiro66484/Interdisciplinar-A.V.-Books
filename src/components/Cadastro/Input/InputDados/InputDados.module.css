@@ -4,7 +4,11 @@
     flex-direction: column;
     margin-top: 10px;
 }
-
+input::placeholder, textarea::placeholder{
+    font-family: "Arial", sans-serif;
+    color: yellow;
+  }
+  
 .input{
     margin-top: 20px;
     margin-bottom: 5px;

@@ -29,7 +29,7 @@ const InputEndereco =()=>{
                     <label class={styles.label}>Rua</label>
                     <input className={styles.input} type="text" placeholder="Em qual rua você mora ?"></input>
                 </div>
-
+            <div className={styles.caixaCampoComplemento}>
                 <div className={styles.campoTextoComplemento}>
                     <label class={styles.label}>Numero</label>
                     <input className={styles.input} type="numero" placeholder="N°"></input>
@@ -39,6 +39,7 @@ const InputEndereco =()=>{
                     <label class={styles.label}>Complemento</label>
                     <input className={styles.input} type="text" placeholder="Complemento"></input>
                 </div>
+            </div>
             </div>
         </div>
     )

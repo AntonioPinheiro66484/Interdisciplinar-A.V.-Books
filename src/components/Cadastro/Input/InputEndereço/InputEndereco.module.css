@@ -32,9 +32,17 @@
     flex-direction: column;
 }
 
+.caixaCampoComplemento{
+    margin-right:11%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
 .campoTextoComplemento{
     display: flex;
     flex-direction: column;
+    width: 270px;
 }
 
 .caixa{
