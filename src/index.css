@@ -48,7 +48,7 @@ input:focus, textarea:focus{
 
 input::placeholder, textarea::placeholder{
   font-family: "Arial", sans-serif;
-  color: #979797;
+  color: #787878;
 }
 
 input, textarea{

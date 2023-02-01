@@ -29,11 +29,6 @@ const DetalhesProduto = ()=>{
             <Pedido/>
             </div>
         </div>
-
-        <div className={styles.recomendado}>
-            <div className={styles.titulorecomendado}>Recomendações</div>
-            <Carrossel></Carrossel>
-        </div>
         
         <div className={styles.descricao}>
             <div className={styles.titulo}>Descrição</div>
@@ -65,6 +60,11 @@ const DetalhesProduto = ()=>{
                 <dt>Acabamento</dt>
                 <dd>Livro capa dura (hardcover)</dd>
             </dl>
+        </div>
+
+        <div className={styles.recomendado}>
+            <div className={styles.titulorecomendado}>Recomendações</div>
+            <Carrossel></Carrossel>
         </div>
 
         <PreFooter></PreFooter>
