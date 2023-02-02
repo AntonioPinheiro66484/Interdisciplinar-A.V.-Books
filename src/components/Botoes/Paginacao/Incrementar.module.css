@@ -1,0 +1,24 @@
+.incrementar{
+    display: flex;
+    width: 30px;
+    height: 30px;
+    margin-left: 5px;
+    align-items: center;
+    justify-content: center;
+    color: #4c3d5f;
+    background-color: #fff671;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: 545;
+    border: 2px solid #4c3d5f;
+    border-right: #4c3d5f;
+    border-bottom: #4c3d5f;
+    border-top: #4c3d5f;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+
+}
+.incrementar:hover{
+    background-color: beige;
+
+}

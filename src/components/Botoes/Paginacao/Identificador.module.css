@@ -1,0 +1,9 @@
+.identificador{
+    display: flex;
+    color: #4c3d5f;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: 550;
+}

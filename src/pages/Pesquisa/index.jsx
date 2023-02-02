@@ -7,13 +7,16 @@ import PreFooter from "../../components/Footer/Prefooter/PreFooter";
 import Footer from "../../components/Footer/Footer";
 import Produtos from "../../components/Produtos/Produtos";
 import Filtros from "../../components/Filtros/Filtros";
+import Identificador from "../../components/Botoes/Paginacao/Identificador";
+import Incrementar from "../../components/Botoes/Paginacao/Incrementar";
+import Decrementar from "../../components/Botoes/Paginacao/Decrementar";
 
 
 
 
 const Pesquisa =()=>{
     return(
-        <div>
+        <div className={styles.paginaPesquisa}>
             <Header></Header>
             <NavBar></NavBar>
             <div className={styles.breadcrumb}>
@@ -34,6 +37,13 @@ const Pesquisa =()=>{
                     <Produtos/>
                     <Produtos/>
                     <Produtos/>
+
+             <div className={styles.caixaPaginacao}>
+                    <Decrementar/>
+                    <Identificador/>
+                    <Incrementar/>
+             </div>
+
              </div>
              </div>
              
