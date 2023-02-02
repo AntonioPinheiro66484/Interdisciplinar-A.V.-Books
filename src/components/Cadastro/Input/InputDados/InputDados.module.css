@@ -4,14 +4,12 @@
     flex-direction: column;
     margin-top: 10px;
 }
-input::placeholder{
+
+input::placeholder, input::textarea{
     font-family: "Arial", sans-serif;
-    color: yellow;
+    color: yellow !important;
   }
-  textarea::placeholder{
-    color: #202024;
-  }
-  
+
 .input{
     margin-top: 20px;
     margin-bottom: 5px;
@@ -19,7 +17,7 @@ input::placeholder{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    background-color: #202024;
+    background-color: white;
     border-radius: 4px;
     color: white;
     
