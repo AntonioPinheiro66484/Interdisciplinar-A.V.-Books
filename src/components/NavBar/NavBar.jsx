@@ -1,19 +1,22 @@
 import React from 'react';
+import { BrowserRouter } from 'react-router-dom';
 import styles from './NavBar.module.css'
 
 const NavBar = () => {
   return (
-    <nav className={styles.navBar}>
-          <ul className={styles.paiItems}>
-            <li className={styles.item}>Best Sellers</li>
-            <li className={styles.item}>E-Books</li>
-            <li className={styles.item}>Lançamentos</li>
-            <li className={styles.item}>Romances</li>
-            <li className={styles.item}>Infantins</li>
-            <li className={styles.item}>Mangás</li>
-            <li className={styles.item}>HQ's</li>
-          </ul>
-    </nav>
+  
+      <nav className={styles.navBar}>
+            <ul className={styles.paiItems}>
+              <li className={styles.item}><a  className={styles.link} href="#">Best Sellers</a></li>
+              <li className={styles.item}><a  className={styles.link} href="#">E-Books</a></li>
+              <li className={styles.item}><a  className={styles.link} href="#">Lançamentos</a>  </li>
+              <li className={styles.item}><a  className={styles.link} href="#">Romances</a></li>
+              <li className={styles.item}><a  className={styles.link} href="#">Infantis</a></li>
+              <li className={styles.item}><a  className={styles.link} href="#">Mangás</a></li>
+              <li className={styles.item}><a  className={styles.link} href="#">HQ's</a></li>
+            </ul>
+      </nav>
+   
     
   )
 }

@@ -11,7 +11,7 @@
     display: flex;
 }
 .item{
-    font-family: Arial, Helvetica, sans-serif;
+
     justify-content: center;
     display: inline-flex;
     border:2px solid #6b0ee2 ;
@@ -21,7 +21,15 @@
     margin: 10px 30px 10px 0px;
     padding-right: 30px;
 }
+.link{
+    text-decoration: none;
+    color: #8163a6;
+}
 
+.link:hover{
+    text-decoration: underline;
+
+}
 li:last-child{
     border:2px solid #6b0ee2 ;
     border-bottom: #6b0ee2;
