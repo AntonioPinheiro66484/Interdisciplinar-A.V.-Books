@@ -11,10 +11,8 @@ const Home = ()=>{
             <Header></Header>
             <NavBar></NavBar>
             <Body></Body>
-
-                <PreFooter></PreFooter>
-                <Footer></Footer>
-
+            <PreFooter></PreFooter>
+            <Footer></Footer>
         </div>
     )
 }
