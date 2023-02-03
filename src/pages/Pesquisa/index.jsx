@@ -10,6 +10,8 @@ import Filtros from "../../components/Filtros/Filtros";
 import Identificador from "../../components/Botoes/Paginacao/Identificador";
 import Incrementar from "../../components/Botoes/Paginacao/Incrementar";
 import Decrementar from "../../components/Botoes/Paginacao/Decrementar";
+import Seta_Esquerda from '../../assets/icons/seta-esquerda.png'
+import Seta_Direita from '../../assets/icons/seta-direita.png'
 
 
 
@@ -28,9 +30,18 @@ const Pesquisa =()=>{
             </div>
             
             <div className={styles.conteudo}>
+
             <div className={styles.caixaFiltros}>
                 <Filtros/>
             </div>
+
+            <div className={styles.ocultarFiltros}>
+                <img className={styles.setaEsquerda} src={Seta_Esquerda} alt="Icone de Seta Esquerda" />
+                <img className={styles.setaDireita} src={Seta_Direita} alt="Icone de Seta Direita" />
+                <input className={styles.checked} type="checkbox"/>
+            </div>
+            
+
 
              <div className={styles.produtosPesquisa}>
                     <Produtos/>
