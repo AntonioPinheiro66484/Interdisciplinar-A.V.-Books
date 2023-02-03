@@ -41,12 +41,37 @@
     margin-left: 10px;
     width: 210px;
     align-items: center;
+    display: none;
+
+   
+
+}
+.setaEsquerda{
+    margin-top: 5%;
+    width: 30px;
+    height: 30px;
+    display: none;
+   
+}
+.checked{
+    display: none;
+}
+.setaDireita{
+    width: 30px;
+    height: 30px;
+    display: none;
+
+}
+.checkbox:checked .caixaFiltros{
+    display: none;
+
 }
 .produtosPesquisa{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-left: 50px;
+    justify-content: center;
+    margin-left: 22.5%;
 }
 .caixaPaginacao{
     display: flex;
@@ -56,5 +81,6 @@
     background-color: #fff671;
     border: 2px solid #4c3d5f;
     border-radius: 5px;
+    margin-right: 4%;
 }
 
