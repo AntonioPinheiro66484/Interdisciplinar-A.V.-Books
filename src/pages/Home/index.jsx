@@ -11,8 +11,10 @@ const Home = ()=>{
             <Header></Header>
             <NavBar></NavBar>
             <Body></Body>
-            <PreFooter></PreFooter>
-            <Footer></Footer>
+            <div className={styles.caixa}>
+                <PreFooter></PreFooter>
+                <Footer></Footer>
+            </div>
         </div>
     )
 }
