@@ -18,11 +18,11 @@ const Header = () => {
             </div>
          </div>
          <div className={styles.icons}>
-            <div className={styles.caixaIcones}>
+            <div className={styles.caixaIcones1}>
                <img className={styles.icon} src={Perfil} alt="Icone de perfil do cliente"/>
                <div className={styles.titulosLogos}>Perfil</div>
             </div>
-            <div className={styles.caixaIcones}>
+            <div className={styles.caixaIcones2}>
                <img className={styles.icon} src={Carrinho} alt="icone de carrinho do cliente"/>
                <div className={styles.titulosLogos}>Carrinho</div>
             </div>
