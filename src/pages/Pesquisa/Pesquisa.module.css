@@ -32,6 +32,9 @@
 .conteudo{
     display: flex;
     flex-direction: row;
+    width: fit-content;
+    align-items: center;
+    
 }
 .caixaFiltros{
     height: fit-content;
@@ -69,9 +72,10 @@
 .produtosPesquisa{
     display: flex;
     flex-direction: column;
+    width: fit-content;
     align-items: center;
     justify-content: center;
-    margin-left: 22.5%;
+    margin-left: 35%;
 }
 .caixaPaginacao{
     display: flex;
@@ -84,3 +88,22 @@
     margin-right: 4%;
 }
 
+/*Responsividade*/
+
+@media (max-width: 1370px){
+
+    .produtosPesquisa{
+        margin-left: 20%;
+
+    }
+
+}
+ 
+@media (max-width: 1230px){
+
+    .produtosPesquisa{
+        margin-left: 10%;
+
+    }
+
+}

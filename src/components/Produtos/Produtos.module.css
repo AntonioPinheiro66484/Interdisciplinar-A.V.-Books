@@ -47,3 +47,12 @@
     
 }
 
+@media (max-width: 1200px){
+
+    .caixa{
+        flex-wrap: wrap;
+        justify-content: center;
+
+    }
+
+}
