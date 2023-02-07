@@ -1,6 +1,6 @@
 .footer{
     width: 100%;
-    height: 250px;
+    height: auto;
     display: flex;
     background-color: #6b0ee2;
     color:#ffffff;
@@ -10,29 +10,23 @@
 .caixa{
     display: flex;
     width: 100%;
-    justify-content: space-around;
+    justify-content: center;
     margin-top: 2.5%;
+    align-items: center;
+    text-align: center;
 }
 
 .lista{
     display: flex;
-
 }
 
-.lista .items{
-    display: flex;
-    flex-direction: column;
-    margin-bottom: -20px ;
-    list-style: none;
-}
-
-.lista .items .titulo{
+.titulo{
     font-family:  Arial, sans-serif !important;
-    text-align: center;
     margin-bottom: 20px;
     font-size: 24px;
-    text-align: center;
     display: flex;
+    justify-content: center;
+    align-items: center;
     
 }
 
@@ -40,13 +34,15 @@
     font-family: Helvetica, arial , sans-serif !important;
     display: flex;
     padding-bottom: 40px;
-    text-align: center;
+    justify-content: center;
+    font-size: 18px;
 }
 .iconFormaPagamento{
     font-size: 24px;
     margin-bottom: 65px;
     list-style: none;   
 }
+
 .iconFooter{
     display: inline-flex;
     width: 40px;
@@ -55,4 +51,35 @@
     justify-content: space-between;
     margin-right: 15px;
     margin-top: 20px;
+}
+
+@media (max-width:900px){
+    .footer{
+        width: 100%;
+        height: auto;
+        display: flex;
+        background-color: #6b0ee2;
+        color:#ffffff;
+        padding-bottom: 100px;
+        flex-direction: column;
+    }
+
+    .titulo{
+        font-family:  Arial, sans-serif !important;
+        margin-bottom: 20px;
+        font-size: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    
+    .item{
+        font-family: Helvetica, arial , sans-serif !important;
+        display: flex;
+        padding-bottom: 40px;
+        justify-content: center;
+        font-size: 24px;
+    }
+    
 }

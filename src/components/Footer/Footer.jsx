@@ -20,9 +20,11 @@ const Footer = () => {
                   <li className={styles.titulo}>Sobre a A.V. Books</li>
                   <li className={styles.item}>Quem somos ?</li>
                   <li className={styles.item}>Trabalhe conosco</li>
-                  <li className={styles.item}>Acessibilidade</li>
+                  <li className={styles.item}>Acessibilidade </li>
                 </ul>
             </div>
+          </div>
+          <div className={styles.caixa}>
             <div className={styles.lista}>
                   <ul className={styles.items}>
                     <li className={styles.titulo}>Atendimento</li>
@@ -31,6 +33,8 @@ const Footer = () => {
                     <li className={styles.item}>Precisa de Ajuda ?</li>
                   </ul>
             </div>
+            </div>
+            <div className={styles.caixa}>
             <div className={styles.lista}>
                   <ul className={styles.iconFormaPagamento}>
                     <li className={styles.titulo}>Formas de pagamento</li>
@@ -44,7 +48,7 @@ const Footer = () => {
                     <img className={styles.iconFooter} src={Visto}></img>
                   </ul>
             </div>
-        </div>
+            </div>
     </footer>
   )
 }
