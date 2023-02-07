@@ -43,9 +43,16 @@
 
 .imagem img{
 float: left;
+display: flex;
+    flex-direction: column;
 margin-left: 200px;
     width: 90%;
     height: 90%;
+}
+
+.pedido{
+    width: 100%;
+    height: 100%;
 }
 
 .recomendado{
@@ -72,6 +79,7 @@ dl{
     padding: 0 10px 10px 10px;
     margin-top: 30px;
 }
+
   dt {
     float: left;
     clear: left;
@@ -91,4 +99,180 @@ dl{
     font-size: 20px;
     margin: 10px 100px 10px 100px;
     text-align: justify;
+}
+
+@media (max-width: 1301px){
+    .imagem img{
+    float: left;
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+    width: 85%;
+    height: 85%;
+    }
+    .pedido{
+        width: 90%;
+        height: 90%;
+    }
+}
+
+@media (max-width: 1201px){
+    .imagem img{
+    float: left;
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+    width: 80%;
+    height: 80%;
+    }
+    .produto{
+        display: flex;
+        margin: 10px
+    }
+    .pedido{
+        width: 90%;
+        height: 90%;
+    }
+}
+
+@media (max-width: 857px){
+    .imagem img{
+    float: left;
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    width: 70%;
+    height: 70%;
+    }
+    .pedido{
+        width: 80%;
+        height: 80%;
+    }
+}
+
+@media (max-width: 871px){
+    dl{
+        border: 2px solid #000000;
+        width: 40%;
+        margin: 0 auto;
+        float: center;
+        padding: 0 10px 10px 10px;
+        margin-top: 30px;
+    }
+}
+
+    @media (max-width: 757px){
+        dl{
+            border: 2px solid #000000;
+            width: 40%;
+            margin: 0 auto;
+            float: center;
+            padding: 0 10px 10px 10px;
+            margin-top: 30px;
+        }
+        dt {
+            float: left;
+            clear: left;
+            font-weight: bold;
+            margin: 10px 0 0 0;
+          }
+          dt::after {
+            content: ":";
+          }
+          dd {
+            text-align: left;
+            margin: 10px 0 0 150px;
+          }
+          .pedido{
+            width: 70%;
+            height: 70%;
+        }
+}
+
+@media (max-width: 550px){
+    .imagem img{
+    float: left;
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    width: 70%;
+    height: 70%;
+    }
+    dl{
+        border: 2px solid #000000;
+        width: 50%;
+        margin: 0 auto;
+        float: center;
+        padding: 0 10px 10px 10px;
+        margin-top: 30px;
+    }
+    dt {
+        float: left;
+        clear: left;
+        font-weight: bold;
+        margin: 10px 0 0 0;
+      }
+      dt::after {
+        content: ":";
+      }
+      dd {
+        text-align: left;
+        margin: 10px 0 0 150px;
+      }
+}
+
+@media (max-width: 441px){
+    dl{
+        border: 2px solid #000000;
+        width: 60%;
+        margin: 0 auto;
+        float: center;
+        padding: 0 10px 10px 10px;
+        margin-top: 30px;
+    }
+    dt {
+        float: left;
+        clear: left;
+        font-weight: bold;
+        margin: 10px 0 0 0;
+      }
+      dt::after {
+        content: ":";
+      }
+      dd {
+        text-align: left;
+        margin: 10px 0 0 150px;
+      }
+      .pedido{
+        width: 60%;
+        height: 60%;
+    }
+}
+
+@media (max-width: 363px){
+    dl{
+        border: 2px solid #000000;
+        width: 70%;
+        margin: 0 auto;
+        float: center;
+        padding: 0 10px 10px 10px;
+        margin-top: 30px;
+    }
+    dt {
+        float: left;
+        clear: left;
+        font-weight: bold;
+        margin: 10px 0 0 0;
+      }
+      dt::after {
+        content: ":";
+      }
+      dd {
+        text-align: left;
+        margin: 10px 0 0 150px;
+      }
+      .pedido{
+        width: 50%;
+        height: 50%;
+    }
 }
