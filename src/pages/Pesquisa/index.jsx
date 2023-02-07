@@ -54,8 +54,8 @@ const Pesquisa =()=>{
                     <Identificador/>
                     <Incrementar/>
              </div>
-
              </div>
+             
              </div>
              
             <PreFooter></PreFooter>
