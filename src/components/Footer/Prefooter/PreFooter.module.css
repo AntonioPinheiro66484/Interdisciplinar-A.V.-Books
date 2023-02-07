@@ -37,7 +37,6 @@
     display: flex;
     align-items: center;
 
-    
 }
 
 .icons{
@@ -45,4 +44,42 @@
     margin-right: 20px;
     width: 50px;
     height: 50px;
+}
+
+@media (max-width:620px){
+    .caixa{
+        display: flex;
+        width: 100%;
+        background-color: #4c3d5f;
+        height: auto;
+        margin-top: 100px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    
+    }
+    
+    .logoTitulo{
+        display: flex;
+        margin-bottom: 25px;
+        margin-top: 25px;
+
+}
+
+    .caixaIcons{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        margin-bottom: 25px;
+    
+    }
+
+    .icons{
+        display: flex;
+        margin-right: 20px;
+        margin-left: 20px;
+        width: 50px;
+        height: 50px;
+    }
+    
 }
