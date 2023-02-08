@@ -21,6 +21,8 @@ const Pesquisa =()=>{
         <div className={styles.paginaPesquisa}>
             <Header></Header>
             <NavBar></NavBar>
+
+            
             <div className={styles.breadcrumb}>
                 <ul className={styles.breadcrumbNavigation}>
                     <li><a href="/">Home</a></li>
@@ -34,15 +36,7 @@ const Pesquisa =()=>{
             <div className={styles.caixaFiltros}>
                 <Filtros/>
             </div>
-
-            <div className={styles.ocultarFiltros}>
-                <img className={styles.setaEsquerda} src={Seta_Esquerda} alt="Icone de Seta Esquerda" />
-                <img className={styles.setaDireita} src={Seta_Direita} alt="Icone de Seta Direita" />
-                <input className={styles.checked} type="checkbox"/>
-            </div>
             
-
-
              <div className={styles.produtosPesquisa}>
                     <Produtos/>
                     <Produtos/>
