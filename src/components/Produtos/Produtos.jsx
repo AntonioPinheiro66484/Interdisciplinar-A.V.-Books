@@ -41,6 +41,17 @@ const Produtos =()=>{
                                     <Botao/>
                                 </div>
                         </div>
+
+                        <div className={styles.produto}>
+                                <div className={styles.imagem}>
+                                    <img src={Livro4} alt="O Cemitério Maldito"/>
+                                </div>
+                                <div className={styles.descricao}>
+                                    <h3 className={styles.nomeLivro}>O Cemitério Maldito</h3>
+                                    <h3 className={styles.precoLivro}>R$ 60,00</h3>
+                                    <Botao/>
+                                </div>
+                        </div>  
                     </div>
                     
     )
