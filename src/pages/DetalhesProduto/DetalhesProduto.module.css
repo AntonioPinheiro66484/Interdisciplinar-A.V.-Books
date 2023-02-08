@@ -43,7 +43,7 @@
 
 .imagem img{
 float: left;
-display: flex;
+
     flex-direction: column;
 margin-left: 200px;
     width: 90%;
@@ -51,6 +51,7 @@ margin-left: 200px;
 }
 
 .pedido{
+
     width: 100%;
     height: 100%;
 }
@@ -104,13 +105,14 @@ dl{
 @media (max-width: 1301px){
     .imagem img{
     float: left;
-    display: flex;
+    
     flex-direction: column;
     margin-left: 100px;
     width: 85%;
     height: 85%;
     }
     .pedido{
+        
         width: 90%;
         height: 90%;
     }
@@ -119,7 +121,7 @@ dl{
 @media (max-width: 1201px){
     .imagem img{
     float: left;
-    display: flex;
+    
     flex-direction: column;
     margin-left: 100px;
     width: 80%;
@@ -130,23 +132,9 @@ dl{
         margin: 10px
     }
     .pedido{
+
         width: 90%;
         height: 90%;
-    }
-}
-
-@media (max-width: 857px){
-    .imagem img{
-    float: left;
-    display: flex;
-    flex-direction: column;
-    margin-left: 50px;
-    width: 70%;
-    height: 70%;
-    }
-    .pedido{
-        width: 80%;
-        height: 80%;
     }
 }
 
@@ -183,20 +171,35 @@ dl{
             text-align: left;
             margin: 10px 0 0 150px;
           }
-          .pedido{
-            width: 70%;
-            height: 70%;
-        }
+}
+
+@media (max-width: 857px){
+    .imagem img{
+
+    
+    flex-direction: column;
+
+    width: 50%;
+    height: 50%;
+    }
+    .produto{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction:column;
+        align-items: center;
+    }
+    
 }
 
 @media (max-width: 550px){
     .imagem img{
-    float: left;
-    display: flex;
+
+
     flex-direction: column;
-    margin-left: 50px;
-    width: 70%;
-    height: 70%;
+
+    width: 50%;
+    height: 50%;
     }
     dl{
         border: 2px solid #000000;
@@ -243,10 +246,7 @@ dl{
         text-align: left;
         margin: 10px 0 0 150px;
       }
-      .pedido{
-        width: 60%;
-        height: 60%;
-    }
+      
 }
 
 @media (max-width: 363px){
@@ -271,8 +271,5 @@ dl{
         text-align: left;
         margin: 10px 0 0 150px;
       }
-      .pedido{
-        width: 50%;
-        height: 50%;
-    }
+
 }
