@@ -8,11 +8,17 @@
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
 }
+
+
 .paiNavItem{
+    flex-direction: column;
+}
+
+.paiItems{
     display: flex;
+    flex-direction: row;
 }
 .item{
-
     justify-content: center;
     display: inline-flex;
     border:2px solid #6b0ee2 ;
@@ -21,6 +27,7 @@
     border-left: #6b0ee2;
     margin: 10px 30px 10px 0px;
     padding-right: 30px;
+    white-space: nowrap;
 }
 .link{
     text-decoration: none;
@@ -45,4 +52,119 @@
 .iconMenu{
     display: flex;
     align-items: flex-start;
+}
+
+.botao{
+    display:none; 
+    border:none;
+    background:transparent;
+    padding:2px;
+    line-height:1px;
+    color:white;
+    font-size:20px;
+}
+.caixabotaomenu{
+    float:left;
+
+}
+@media (max-width:921px){
+    .item{
+        justify-content: center;
+        display: inline-flex;
+        border:2px solid #6b0ee2 ;
+        border-top: #6b0ee2;
+        border-bottom: #6b0ee2;
+        border-left: #6b0ee2;
+        margin: 10px 20px 10px 0px;
+        padding-right: 20px;
+        white-space: nowrap;
+    }
+    .botao{
+        border:none;
+        background:transparent;
+        padding:2px;
+        line-height:1px;
+        color:white;
+        font-size:20px;
+    }
+    .caixabotaomenu{
+        float:left;
+    
+    }
+}
+
+@media (max-width:861px){
+    .item{
+        justify-content: center;
+        display: inline-flex;
+        border:2px solid #6b0ee2 ;
+        border-top: #6b0ee2;
+        border-bottom: #6b0ee2;
+        border-left: #6b0ee2;
+        margin: 10px 10px 10px 0px;
+        padding-right: 20px;
+        white-space: nowrap;
+    }
+}
+
+@media (max-width:861px){
+    .item{
+        justify-content: center;
+        display: inline-flex;
+        border:2px solid #6b0ee2 ;
+        border-top: #6b0ee2;
+        border-bottom: #6b0ee2;
+        border-left: #6b0ee2;
+        margin: 10px 10px 10px 0px;
+        padding-right: 20px;
+        white-space: nowrap;
+    }
+}
+
+@media (max-width:741px){
+
+    .navBar{
+        width: 100%;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #fff671;
+        color:#8163a6;
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+        flex-direction: column;
+    }
+
+    .item{
+        justify-content: center;
+        display: inline-flex;
+        border:2px solid #6b0ee2 ;
+        border-top: #6b0ee2;
+        border-bottom: #6b0ee2;
+        border-left: #6b0ee2;
+        border-right:#6b0ee2;
+        margin: 10px 0px 10px 0px;
+        padding-right: 30px;
+        white-space: nowrap;
+    }
+
+    .paiItems{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+ 
+    }
+
+    .item:last-child{
+        border:2px solid #6b0ee2 ;
+        border-bottom: #6b0ee2;
+        border-right: #6b0ee2;
+        border-top: #6b0ee2;
+        border-left: #6b0ee2;
+        margin: 10px 0px 10px 0px;
+        padding-right: 25px;
+    
+    }
+
+
 }
