@@ -1,0 +1,155 @@
+.barraAcessibilidade{
+    display: flex;
+    height: 25px;
+    background-color: black;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.caixaNavegacao{
+    display: flex;
+    flex-direction: row;
+    margin-left: 1%;
+    width: 35%;
+    white-space: nowrap;
+    
+
+}
+
+.caixaFerramentas{
+    display: flex;
+    flex-direction: row;
+    width: 20%;
+
+}
+
+.item{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin-right: 5%;
+}
+
+.item:hover{
+    text-decoration: underline;
+}
+
+.itemFerramenta{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin-left: 5%;
+}
+
+.itemFerramenta:hover{
+    text-decoration: underline;
+}
+
+@media (max-width: 1923px){
+
+    .caixaFerramentas{
+        margin-right: 5%;
+
+    }
+    
+}
+
+@media (max-width: 1300px){
+
+    .caixaFerramentas{
+        margin-right: 10%;
+
+    }
+    
+}
+
+@media (max-width: 1000px){
+
+    .caixaFerramentas{
+        margin-right: 15%;
+
+    }
+    
+}
+
+@media (max-width: 792px){
+
+    .caixaFerramentas{
+        margin-right: 20%;
+
+    }
+    
+}
+
+@media (max-width: 714px){
+
+    .barraAcessibilidade{
+       display: flex;
+       flex-direction: row;
+       height: auto;
+       align-items: center;
+     
+    
+
+    }
+
+    .caixaNavegacao{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        
+    }
+
+    .caixaFerramentas{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-top: 7%;
+        margin-right: 25%;
+       
+    }
+    
+}
+
+@media (max-width: 512px){
+
+    .caixaNavegacao{
+        width: fit-content;
+    }
+
+    .caixaFerramentas{
+        width: fit-content;
+    }
+
+    
+}
+
+@media (max-width: 641px){
+
+    .caixaFerramentas{
+        margin-right: 30%;
+    }
+
+    
+}
+
+@media (max-width: 551px){
+
+    .caixaFerramentas{
+        margin-right: 45%;
+    }
+
+    
+}
+
+@media (max-width: 511px){
+
+    .caixaNavegacao{
+        width: 20%;
+    }
+
+    .caixaFerramentas{
+        margin-right: 50%;
+    }
+
+    
+}
