@@ -9,9 +9,67 @@
     cursor:pointer;
     color: #6B0EE2;
     margin: 5px;
+
 }
 
 .botao:hover{
     height: 60px;
     width: 355px;
+}
+
+@media (max-width: 955px){
+    .botao{
+        height: 50px;
+        width: 300px;
+        background-color: #fff671;
+        border-radius: 10px;
+        font-weight: 700;
+        font-size: 20px;
+        border: 2px solid #6B0EE2 ;
+        cursor:pointer;
+        color: #6B0EE2;
+        margin: 5px;
+    }
+    .botao:hover{
+        height: 60px;
+        width: 320px;
+    }
+}
+@media (max-width: 478px){
+    .botao{
+        height: 50px;
+        width: 260px;
+        background-color: #fff671;
+        border-radius: 10px;
+        font-weight: 700;
+        font-size: 18px;
+        border: 2px solid #6B0EE2 ;
+        cursor:pointer;
+        color: #6B0EE2;
+        margin: 5px;
+        
+    }
+    .botao:hover{
+        height: 60px;
+        width: 280px;
+    }
+}
+@media (max-width: 400px){
+    .botao{
+        height: 50px;
+        width: 200px;
+        background-color: #fff671;
+        border-radius: 10px;
+        font-weight: 700;
+        font-size: 16px;
+        border: 2px solid #6B0EE2 ;
+        cursor:pointer;
+        color: #6B0EE2;
+        margin: 5px;
+
+    }
+    .botao:hover{
+        height: 60px;
+        width: 220px;
+    }
 }
