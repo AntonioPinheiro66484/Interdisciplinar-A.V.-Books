@@ -10,15 +10,14 @@ import Filtros from "../../components/Filtros/Filtros";
 import Identificador from "../../components/Botoes/Paginacao/Identificador";
 import Incrementar from "../../components/Botoes/Paginacao/Incrementar";
 import Decrementar from "../../components/Botoes/Paginacao/Decrementar";
-import Seta_Esquerda from '../../assets/icons/seta-esquerda.png'
-import Seta_Direita from '../../assets/icons/seta-direita.png'
-
+import Acessibilidade from "../../components/Acessibilidade/Acessibilidade"
 
 
 
 const Pesquisa =()=>{
     return(
         <div className={styles.paginaPesquisa}>
+            <Acessibilidade/>
             <Header></Header>
             <NavBar></NavBar>
 
@@ -30,6 +29,8 @@ const Pesquisa =()=>{
                 </ul>
 
             </div>
+
+            
             
             <div className={styles.conteudo}>
 

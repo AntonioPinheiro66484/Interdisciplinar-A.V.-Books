@@ -13,3 +13,23 @@
     height: 55px;
     width: 105px;
 }
+
+@media (max-width: 478px){
+
+    .botao{
+        height: 25px;
+        background-color: #fff671;
+        border-radius: 5px;
+        font-weight: 350;
+        font-size: 9px;
+        border: 1px solid #8163a6 ;
+        cursor:pointer;
+        color: #8163a6;
+    }
+
+    .botao:hover{
+        height: 27.5px;
+        width: 52.5px;
+    }
+
+}
