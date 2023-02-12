@@ -27,6 +27,10 @@ const Header = () => {
                <div className={styles.titulosLogos}>Carrinho</div>
             </div>
          </div>
+
+         <div className={styles.caixaColor}>
+
+         </div>
       </header>
   )
 }
