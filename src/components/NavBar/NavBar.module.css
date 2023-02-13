@@ -30,6 +30,10 @@
     padding-right: 30px;
     white-space: nowrap;
 }
+
+.item:hover{
+    background-color:#f1efc3;
+}
 .link{
     text-decoration: none;
     color: #8163a6;
@@ -37,7 +41,6 @@
 
 .link:hover{
     text-decoration: underline;
-
 }
 .item:last-child{
     border:2px solid #6b0ee2 ;
@@ -125,7 +128,6 @@
 
     .caixaBotaoMobile{
         display:flex;
-        justify-content:start; 
         border:none;
         background:transparent;
         padding:2px;
@@ -134,18 +136,17 @@
         font-size:1px;
         cursor: pointer;
         width: auto;
-        height: auto;
+        height: 45px;
    
     }
 
     .imgBotaoMobile{
-        display: block;
+        display: flex;
         position: absolute;
         font-size: 30px;
         color: white;
         border: none;
         outline: none;
-        top: 210px;
         left:15px;
         width: 25px;
         height: 25px;
