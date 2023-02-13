@@ -4,11 +4,14 @@ import Footer from "../../components/Footer/Footer";
 import PreFooter from "../../components/Footer/Prefooter/PreFooter";
 import Header from "../../components/Header/Header";
 import NavBar from "../../components/NavBar/NavBar";
-import styles from "./Cadastro.module.css"
+import Acessibilidade from "../../components/Acessibilidade/Acessibilidade"
+import styles from "./Cadastro.module.css";
+
 
 const Cadastro =()=>{
     return (
         <div className={styles.cadastro}>
+            <Acessibilidade/>
             <Header></Header>
             <NavBar></NavBar>
             <Formulario></Formulario>

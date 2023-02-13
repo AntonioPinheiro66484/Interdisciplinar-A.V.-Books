@@ -4,10 +4,12 @@ import Header from "../../components/Header/Header";
 import NavBar from "../../components/NavBar/NavBar";
 import Body from "../../components/Body/Body";
 import PreFooter from "../../components/Footer/Prefooter/PreFooter";
+import Acessibilidade from "../../components/Acessibilidade/Acessibilidade"
 import Footer from "../../components/Footer/Footer";
 const Home = ()=>{
     return(
         <div>
+            <Acessibilidade></Acessibilidade>
             <Header></Header>
             <NavBar></NavBar>
             <Body></Body>
