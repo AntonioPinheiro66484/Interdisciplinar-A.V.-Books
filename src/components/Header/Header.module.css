@@ -8,6 +8,7 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 .caixaLogo{
+    display: flex;
     flex-direction: column;
     color: yellow;
 }
@@ -107,7 +108,7 @@
         padding-left: 10px;
         margin-top:40px;
         background: #fff;
-        width: 500px;
+        width: 470px;
         height: 41px;
         border: 2px solid #fff;
         border-right: #fff;
@@ -123,7 +124,7 @@
         padding-left: 10px;
         margin-top:40px;
         background: #fff;
-        width: 400px;
+        width: 380px;
         height: 41px;
         border: 2px solid #fff;
         border-right: #fff;
@@ -139,7 +140,7 @@
         padding-left: 10px;
         margin-top:40px;
         background: #fff;
-        width: 350px;
+        width: 320px;
         height: 41px;
         border: 2px solid #fff;
         border-right: #fff;
@@ -155,7 +156,7 @@
         padding-left: 10px;
         margin-top:40px;
         background: #fff;
-        width: 250px;
+        width: 240px;
         height: 41px;
         border: 2px solid #fff;
         border-right: #fff;
@@ -183,7 +184,7 @@
         padding-left: 10px;
         margin-top:40px;
         background: #fff;
-        width: 150px;
+        width: 80px;
         height: 41px;
         border: 2px solid #fff;
         border-right: #fff;
@@ -191,6 +192,7 @@
         border-radius: 10px;
         border-top-right-radius: 0;
         border-bottom-right-radius: 0;
+    }
 
         .caixaIcones1{
             display: flex;
@@ -203,7 +205,7 @@
             flex-direction: column;
             margin-right: 32px;
         }
-    }
+
 }
 
 @media( max-width: 491px){
@@ -211,7 +213,7 @@
         padding-left: 10px;
         margin-top:40px;
         background: #fff;
-        width: 100px;
+        width: 50px;
         height: 41px;
         border: 2px solid #fff;
         border-right: #fff;
