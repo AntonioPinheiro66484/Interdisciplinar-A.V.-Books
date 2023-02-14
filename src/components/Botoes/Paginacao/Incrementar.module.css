@@ -16,10 +16,12 @@
     border-top: #4c3d5f;
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
+    cursor: pointer;
 
 }
 .incrementar:hover{
     background-color: beige;
+    
 
 
 

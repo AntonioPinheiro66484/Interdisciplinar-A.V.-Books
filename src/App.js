@@ -4,6 +4,7 @@ import Home from './pages/Home'
 import Cadastro from './pages/Cadastro'
 import DetalhesProduto from './pages/DetalhesProduto'
 import Pesquisa from './pages/Pesquisa'
+import Administracao from './pages/Administracao'
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
               <Route path="/DetalhesProduto" element={<DetalhesProduto/>}/>
               <Route path="/Pesquisa" element={<Pesquisa/>}/>
               <Route path="/Cadastro" element={<Cadastro/>}/>
+              <Route path="/Administracao" element={<Administracao/>}/>
           </Routes>
       </Router>
     </div>

@@ -1,0 +1,89 @@
+.header{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #6b0ee2;
+    padding-bottom: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.caixaLogo{
+    flex-direction: column;
+    color: yellow;
+}
+
+.logo{
+    height: 100px;
+    width: 100px;
+    /* margin-left: 100px; */
+    margin-top:20px;
+    
+}
+.titulosLogoSite{
+    font-family: Arial, Helvetica, sans-serif;
+    color: yellow;
+    margin-top: 20px;
+}
+.titulosLogos{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    margin-top: 20px;
+    
+}
+.quadrado{
+    font-size: 120px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: #fff671;
+}
+
+@media (max-width: 1000px){
+    .quadrado{
+        font-size: 100px;
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+        color: #fff671;
+    }
+}
+
+@media (max-width: 805px){
+    .quadrado{
+        font-size: 80px;
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+        color: #fff671;
+    }
+}
+
+@media (max-width: 660px){
+    .quadrado{
+        font-size: 60px;
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+        color: #fff671;
+    }
+}
+
+@media (max-width: 520px){
+    .quadrado{
+        font-size: 45px;
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+        color: #fff671;
+    }
+}
+
+@media (max-width: 420px){
+    .quadrado{
+        font-size: 35px;
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+        color: #fff671;
+    }
+}

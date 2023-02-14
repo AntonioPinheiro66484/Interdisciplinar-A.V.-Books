@@ -1,13 +1,17 @@
-import React from 'react'
+import React, { useState } from 'react'
 import styles from './Filtros.module.css'
 import Lupa from '../../assets/icons/lupa.png'
 import Filtro from '../../assets/icons/filtro.png'
+import setaEsquerda from  "../../assets/icons/seta-esquerda.png"
+import setaDireita from  "../../assets/icons/seta-direita.png"
 
 const Filtros =()=>{
-    return(
+   const [isFiltro, setIsFiltro]=useState(false);
+
+
+   return(
         <div className={styles.filtros}>
 
-        
          <div className={styles.caixaFiltro}>  
             <img className={styles.filtro} src={Filtro} alt="Icone filtro"/>
             <div className={styles.titulo}>Filtros</div>
@@ -84,8 +88,29 @@ const Filtros =()=>{
 
          </div>
 
+
+         <div className={styles.caixaBotaoFiltro}>
+            <button className={styles.botaoFiltro}
+            onClick={()=> setIsFiltro(!isFiltro)}
+            >
+              {isFiltro ? (
+                <img className={styles.imgSetaEsquerda} src={setaDireita}/>
+               ):(
+                <img className={styles.imgSetaEsquerda} src={setaEsquerda}/>
+               )}
+         </button>
+       </div>
+
+
+         <div className={isFiltro ? styles.caixaFiltro : styles.caixaFiltro}
+              onClick={()=>setIsFiltro(false)}
+            >
+       
+
         </div>
 
+
+        </div>
 
 
 

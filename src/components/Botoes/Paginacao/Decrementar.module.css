@@ -16,6 +16,7 @@
     border-top: #4c3d5f;
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
+    cursor: pointer;
 
 }
 .decrementar:hover{

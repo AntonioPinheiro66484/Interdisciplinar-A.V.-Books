@@ -7,10 +7,12 @@ import PreFooter from "../../components/Footer/Prefooter/PreFooter";
 import Footer from "../../components/Footer/Footer";
 import Pedido from "../../components/DescricaoPedido/DescricaoPedido";
 import Carrossel from '../../components/Carrossel/Carrossel'
+import Acessibilidade from "../../components/Acessibilidade/Acessibilidade"
 
 const DetalhesProduto = ()=>{
     return(
         <div>
+        <Acessibilidade></Acessibilidade>
         <Header></Header>
         <NavBar></NavBar>
         <div className={styles.breadcrumb}>
