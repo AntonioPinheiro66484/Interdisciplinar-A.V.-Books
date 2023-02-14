@@ -31,13 +31,11 @@
 }
 .conteudo{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-content: center;
     justify-content: center;
-    width: auto;
-
- 
-    
+    width: auto;  
+    margin-top: 2%; 
 }
 .caixaFiltros{
     height: fit-content;
@@ -45,28 +43,23 @@
     border: 2px solid #8163A6;
     border-radius: 5px;
     width: 210px;
-    align-items: center;
-    display: none;
-
-   
-
-}
-.checkbox:checked .caixaFiltros{
-    display: none;
+    margin-right: 5%;
+    
 
 }
 .produtosPesquisa{
     display: flex;
     flex-direction: column;
-    
     align-items: center;
     justify-content: center;
+    margin-right: 10%;
+    margin-top: 2%;
+    
    
 }
 .caixaPaginacao{
     display: flex;
     flex-direction: row;
-  
     margin-top: 5%;
     background-color: #fff671;
     border: 2px solid #4c3d5f;
