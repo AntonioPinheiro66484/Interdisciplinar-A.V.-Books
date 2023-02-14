@@ -10,7 +10,7 @@ import styles from "./Cadastro.module.css";
 
 const Cadastro =()=>{
     return (
-        <div className={styles.cadastro}>
+        <div>
             <Acessibilidade/>
             <Header></Header>
             <NavBar></NavBar>

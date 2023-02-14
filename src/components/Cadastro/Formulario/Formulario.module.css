@@ -1,6 +1,7 @@
 .caixa{
     display: flex;
     align-items: center;
+    flex-direction: column;
 }
 .formulario{
     margin-top: 8%;
@@ -33,4 +34,101 @@
 .caixaBotao{
     display: flex;
     align-items: center;
+}
+
+@media (max-width:822px){
+    .formulario{
+        margin-top: 8%;
+        display: flex;
+        width: 600px;
+        height: 1300px;
+        flex-direction: column;
+        background-color:#6B0EE2;
+        border-radius: 4px;
+    }
+    
+    .titulo1{
+        font-family: Arial, Helvetica, sans-serif;
+        color: #F9FAC4;
+        font-size: 32px;
+        margin-top: 10%;
+        margin-bottom: 5%;
+        font-weight: bold;
+    }
+    
+    .titulo2{
+        font-family: Arial, Helvetica, sans-serif;
+        color: #F9FAC4;
+        font-size: 28px;
+        margin-top: 5%;
+        margin-bottom: 2.5%;
+        font-weight: bold;
+    }
+}
+
+@media (max-width:750px){
+    .formulario{
+        margin-top: 8%;
+        display: flex;
+        width: 500px;
+        height: 1250px;
+        flex-direction: column;
+        background-color:#6B0EE2;
+        border-radius: 4px;
+    }
+    
+    .titulo1{
+        font-family: Arial, Helvetica, sans-serif;
+        color: #F9FAC4;
+        font-size: 28px;
+        margin-top: 10%;
+        margin-bottom: 5%;
+        font-weight: bold;
+    }
+    
+    .titulo2{
+        font-family: Arial, Helvetica, sans-serif;
+        color: #F9FAC4;
+        font-size: 24px;
+        margin-top: 5%;
+        margin-bottom: 2.5%;
+        font-weight: bold;
+    }
+}
+
+@media (max-width:610px){
+    .formulario{
+        margin-top: 8%;
+        display: flex;
+        width: 400px;
+        height: 1250px;
+        flex-direction: column;
+        background-color:#6B0EE2;
+        border-radius: 4px;
+    }
+    
+    .titulo1{
+        font-family: Arial, Helvetica, sans-serif;
+        color: #F9FAC4;
+        font-size: 28px;
+        margin-top: 10%;
+        margin-bottom: 5%;
+        font-weight: bold;
+    }
+    
+    .titulo2{
+        font-family: Arial, Helvetica, sans-serif;
+        color: #F9FAC4;
+        font-size: 24px;
+        margin-top: 5%;
+        margin-bottom: 2.5%;
+        font-weight: bold;
+    }
+
+    .caixaBotao{
+        display: flex;
+        align-items: center;
+        
+    }
+    
 }
