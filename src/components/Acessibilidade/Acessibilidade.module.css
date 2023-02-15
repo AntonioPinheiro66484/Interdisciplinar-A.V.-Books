@@ -1,6 +1,5 @@
 .barraAcessibilidade{
     display: flex;
-    height: 25px;
     background-color: black;
     align-items: center;
     justify-content: space-between;
@@ -10,11 +9,7 @@
 .caixaNavegacao{
     display: flex;
     flex-direction: row;
-    margin-left: 1%;
-    width: 35%;
     white-space: nowrap;
-    
-
 }
 
 .caixaFerramentas{
@@ -73,25 +68,13 @@
     
 }
 
-@media (max-width: 792px){
-
-    .caixaFerramentas{
-        margin-right: 20%;
-
-    }
-    
-}
-
-@media (max-width: 714px){
+@media (max-width: 881px){
 
     .barraAcessibilidade{
        display: flex;
-       flex-direction: row;
+       flex-direction: column;
        height: auto;
        align-items: center;
-     
-    
-
     }
 
     .caixaNavegacao{
@@ -102,55 +85,10 @@
     }
 
     .caixaFerramentas{
-        display: flex;
+        display: flex;     
         flex-direction: row;
         align-items: center;
-        margin-top: 7%;
-        margin-right: 25%;
        
     }
-    
-}
-
-@media (max-width: 512px){
-
-    .caixaNavegacao{
-        width: fit-content;
-    }
-
-    .caixaFerramentas{
-        width: fit-content;
-    }
-
-    
-}
-
-@media (max-width: 641px){
-
-    .caixaFerramentas{
-        margin-right: 30%;
-    }
-
-    
-}
-
-@media (max-width: 551px){
-
-    .caixaFerramentas{
-        margin-right: 45%;
-    }
-
-    
-}
-@media (max-width: 511px){
-
-    .caixaNavegacao{
-        width: 20%;
-    }
-
-    .caixaFerramentas{
-        margin-right: 50%;
-    }
-
     
 }
