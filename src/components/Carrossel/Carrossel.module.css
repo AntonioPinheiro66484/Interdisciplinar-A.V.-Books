@@ -52,3 +52,20 @@
     margin-bottom: 10px;
 }
 
+@media (max-width: 482px){
+    .App{
+        width: 70%;
+        margin: 0 auto;
+        margin-top: 50px; 
+    }
+
+    .cardProdutos{ 
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        width: 100%;   
+    }
+    
+
+
+}
