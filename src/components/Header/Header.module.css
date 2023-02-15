@@ -7,6 +7,7 @@
     padding-bottom: 40px;
     font-family: Arial, Helvetica, sans-serif;
 }
+
 .caixaLogo{
     display: flex;
     flex-direction: column;
@@ -66,7 +67,7 @@
     padding-left: 10px;
     margin-top:40px;
     background: #fff;
-    width: 600px;
+    width: 580px;
     height: 41px;
     border: 2px solid #fff;
     border-right: #fff;
@@ -108,7 +109,7 @@
         padding-left: 10px;
         margin-top:40px;
         background: #fff;
-        width: 470px;
+        width: 440px;
         height: 41px;
         border: 2px solid #fff;
         border-right: #fff;
@@ -124,7 +125,7 @@
         padding-left: 10px;
         margin-top:40px;
         background: #fff;
-        width: 380px;
+        width: 370px;
         height: 41px;
         border: 2px solid #fff;
         border-right: #fff;
@@ -140,7 +141,7 @@
         padding-left: 10px;
         margin-top:40px;
         background: #fff;
-        width: 320px;
+        width: 310px;
         height: 41px;
         border: 2px solid #fff;
         border-right: #fff;
@@ -152,11 +153,22 @@
 }
 
 @media (max-width: 680px){
+    .header{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        background-color: #6b0ee2;
+        padding-bottom: 40px;
+        font-family: Arial, Helvetica, sans-serif;
+        flex-direction: column;
+    }
+
     .barraPesquisa{
         padding-left: 10px;
         margin-top:40px;
         background: #fff;
-        width: 240px;
+        width: 300px;
         height: 41px;
         border: 2px solid #fff;
         border-right: #fff;
@@ -180,11 +192,12 @@
 }
 
 @media( max-width: 580px){
+
     .barraPesquisa{
         padding-left: 10px;
         margin-top:40px;
         background: #fff;
-        width: 80px;
+        width: 275px;
         height: 41px;
         border: 2px solid #fff;
         border-right: #fff;
@@ -209,11 +222,22 @@
 }
 
 @media( max-width: 491px){
+    .header{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        background-color: #6b0ee2;
+        padding-bottom: 40px;
+        font-family: Arial, Helvetica, sans-serif;
+        flex-direction: column;
+    }
+
     .barraPesquisa{
         padding-left: 10px;
         margin-top:40px;
         background: #fff;
-        width: 50px;
+        width: 230px;
         height: 41px;
         border: 2px solid #fff;
         border-right: #fff;
