@@ -8,6 +8,10 @@
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
     flex-wrap: nowrap;
+    border: 2px solid #8163a6;
+    border-top: #8163a6;
+    border-right: #8163a6;
+    border-left: #8163a6;
 }
 
 
