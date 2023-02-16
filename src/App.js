@@ -5,6 +5,7 @@ import Cadastro from './pages/Cadastro'
 import DetalhesProduto from './pages/DetalhesProduto'
 import Pesquisa from './pages/Pesquisa'
 import Administracao from './pages/Administracao'
+import LoginCliente from './pages/LoginCliente/LoginCliente';
 
 
 function App() {
@@ -16,7 +17,8 @@ function App() {
               <Route path="/DetalhesProduto" element={<DetalhesProduto/>}/>
               <Route path="/Pesquisa" element={<Pesquisa/>}/>
               <Route path="/Cadastro" element={<Cadastro/>}/>
-              <Route path="/Administracao" element={<Administracao/>}/>
+              <Route path="/Administracaof" element={<Administracao/>}/>
+              <Route path="/LoginCliente" element={<LoginCliente/>}/>
           </Routes>
       </Router>
     </div>
