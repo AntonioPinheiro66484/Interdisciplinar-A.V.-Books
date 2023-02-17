@@ -1,6 +1,7 @@
 import React from 'react'
 import styles from './InputLoginAdm.module.css'
 import AvBookslogo from '../../../../assets/images/Imagens/logo.png'
+import BotaoLogin from '../../../Botoes/BotaoLogin'
 function InputLoginAdm() {
   return (
     <div className={styles.caixa}>
@@ -19,7 +20,13 @@ function InputLoginAdm() {
                 <label class={styles.label}>Digite sua senha</label>
                 <input className={styles.input} type="password" placeholder="***************"></input>
             </div>
+
+            <div className={styles.inputcheck}>
+              <input type="checkbox">Lembre-me por 30 dias</input>
+
+            </div>
     </div>
+      <BotaoLogin></BotaoLogin>
     </div>
   )
 }

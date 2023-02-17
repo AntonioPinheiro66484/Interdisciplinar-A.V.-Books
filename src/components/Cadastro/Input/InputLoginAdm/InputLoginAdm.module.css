@@ -62,3 +62,6 @@ input::placeholder, input::textarea{
     display: flex;
     flex-direction: column;
 }
+.inputcheck{
+    display: flex;
+}
