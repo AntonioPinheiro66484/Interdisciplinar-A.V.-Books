@@ -6,7 +6,7 @@ import DetalhesProduto from './pages/DetalhesProduto'
 import Pesquisa from './pages/Pesquisa'
 import Administracao from './pages/Administracao'
 import LoginCliente from './pages/LoginCliente/LoginCliente';
-
+import LoginAdm from './pages/LoginADM/LoginADM';
 
 function App() {
   return (
@@ -19,6 +19,8 @@ function App() {
               <Route path="/Cadastro" element={<Cadastro/>}/>
               <Route path="/Administracaof" element={<Administracao/>}/>
               <Route path="/LoginCliente" element={<LoginCliente/>}/>
+              <Route path="/LoginAdm" element={<LoginAdm/>}/>
+
           </Routes>
       </Router>
     </div>
