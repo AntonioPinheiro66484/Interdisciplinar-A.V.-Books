@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     background-color: #6b0ee2;
-    height:593px;
+    height:auto;
 }
 .caixaLogo{
     display: flex;
@@ -22,7 +22,6 @@
 .logo{
     height: 125px;
     width: 125px;
-    /* margin-left: 100px; */
     margin-top:20px;
     
 }
@@ -47,6 +46,17 @@ input::placeholder, input::textarea{
     background-color: white;
     border-radius: 4px;
     
+}
+.caixaInput{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: yellow;
+}
+.inputcheck{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
 }
 
 .label{
