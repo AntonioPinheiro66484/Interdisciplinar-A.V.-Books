@@ -1,0 +1,30 @@
+.caixa{
+    width: 100%;
+}
+.botao{
+    margin-top: 40px;
+    width: 350px;
+    height: 50px;
+    background-color: #E9ED37;
+    font-weight: 700;
+    font-size: 18px;
+    border: 2px solid #8163a6;
+    cursor:pointer;
+    color: #8163a6;
+}
+
+
+@media (max-width:610px){
+    .botao{
+        margin-top: 40px;
+        width: 200px;
+        height: 50px;
+        background-color: #fff671;
+        border-radius: 10px;
+        font-weight: 700;
+        font-size: 18px;
+        border: 2px solid #8163a6;
+        cursor:pointer;
+        color: #8163a6;
+    }
+}
