@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     background-color: #6b0ee2;
-    height:auto;
+    height: 593px;
 }
 .caixaLogo{
     display: flex;
@@ -22,6 +22,7 @@
 .logo{
     height: 125px;
     width: 125px;
+    /* margin-left: 100px; */
     margin-top:20px;
     
 }
@@ -47,17 +48,6 @@ input::placeholder, input::textarea{
     border-radius: 4px;
     
 }
-.caixaInput{
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    color: yellow;
-}
-.inputcheck{
-    display: flex;
-    align-items: center;
-    flex-direction: row;
-}
 
 .label{
     font-size: large;
@@ -71,4 +61,7 @@ input::placeholder, input::textarea{
 .campoTexto{
     display: flex;
     flex-direction: column;
+}
+.inputcheck{
+    display: flex;
 }
