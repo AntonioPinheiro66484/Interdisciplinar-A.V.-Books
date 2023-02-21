@@ -36,7 +36,8 @@
     justify-content: center;
     width: auto;  
     margin-top: 2%;
-    margin-right: 13%;
+    margin-right: 9%;
+    margin-left: 2%;
 }
 .caixaFiltros{
     height: fit-content;
@@ -44,9 +45,8 @@
     border: 2px solid #8163A6;
     border-radius: 5px;
     width: 210px;
-    margin-right: 0.5%;
-    display: none;
-    
+    margin-right: 0.52%;
+    display: none; 
 }
 
 .caixaBotaoFiltro{
@@ -56,8 +56,10 @@
     width: 30px;
     align-items: start;
     justify-content: center;
-    margin-right: 10%;
-    margin-top: 25%;
+    margin-top: 23%;
+    margin-right: 5%;
+    display: none;
+    
 }
 
 .imgSetaEsquerda{
@@ -73,12 +75,13 @@
 
 .botaoFiltro{
     background-color: #ffffff;
-    border: 2px solid #4c3d5f;
-    border-top: #4c3d5f;
-    border-bottom: #4c3d5f;
-    border-right: #4c3d5f;
-    border-left: #4c3d5f;
+    border: 2px solid #8163a6;
+    border-left: #8163A6;
+    border-radius: 5px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
 }
+
 
 
 .produtosPesquisa{
@@ -87,6 +90,7 @@
     align-items: center;
     justify-content: center;
     margin-top: 2%;
+    margin-left: 1.5%;
         
    
 }

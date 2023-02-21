@@ -1,13 +1,14 @@
 .filtros{
     font-family: Arial, Helvetica, sans-serif;
     color: #4c3d5f;
-    font-size: 20px;
+    font-size: 15px;
     padding-bottom: 20%;
   
 }
 .filtro{
-    height: 25px;
-    width: 25px;
+    height: 20px;
+    width: 20px;
+    margin-left: 2px;
     
 }
 .caixaFiltro{
@@ -18,34 +19,32 @@
  
 }
 .info{
-    margin-top: 20px;
-    font-size: 15px;
+    margin-top: 15px;
+    font-size: 10px;
 }
 .tituloSelecionaveis{
-    font-size: 18px;
-    margin-top: 30%;
+    font-size: 13px;
+    margin-top: 10%;
 }
 .categorias{
     display: flex;
     flex-direction: column;
-    margin-top: 30px;
-    font-size: 15px;
+    margin-top: 10px;
+    font-size: 11.5px;
     
 }
 .selecionavel{
     display: flex;
     flex-direction: row;
-    margin-left: 30px;
+    margin-left: 45px;
 }
-.checkBox{
-    border-color: #ffffff;
-}
+
 .opcoes{
-    padding: 3px;
+    padding: 5px;
 }
 .tituloTexts{
-    font-size: 18px;
-    margin-top: 20%;
+    font-size: 13px;
+    margin-top: 15%;
     text-align: justify;
     margin-left: 25px;
 }
@@ -58,7 +57,7 @@
   
 }
 .barraPesquisa{
-    height: 21px;
+    height: 16px;
     margin-left: 10px;
     margin-top: 10%;
     border: 2px solid #8163A6;
@@ -72,7 +71,7 @@
 }
 .caixaLupa{
     margin-top: 10%;
-    height: 21.3px;
+    height: 21.4px;
     background-color: #8163A6;
     border: 2px solid #8163A6;
     border-radius: 5px;
