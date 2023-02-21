@@ -1,0 +1,23 @@
+.inputADM{
+    display: flex;
+    flex-direction: column;
+    background-color: #6b0ee2;
+    height: auto ;
+}
+.caixa{
+
+}
+
+.caixaLogo{
+    display: flex;
+    flex-direction: column;
+    color: yellow;
+}
+
+.logo{
+    height: 100px;
+    width: 100px;
+    /* margin-left: 100px; */
+    margin-top:20px;
+    
+}

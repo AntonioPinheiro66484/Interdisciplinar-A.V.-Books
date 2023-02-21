@@ -7,7 +7,7 @@ function InputLoginCliente() {
     <div className={styles.caixa}>
       <div className={styles.caixaLogo}>
          <img className={styles.logo} src={AvBookslogo}/>
-         <div className={styles.titulosLogoSite}>A.V. Books</div>
+         <div className={styles.tituloLogoSite}>A.V. Books</div>
          <div className={styles.texto}>Faça login e comece a ler!</div>
        </div>
     <div className={styles.inputs}>
@@ -25,10 +25,14 @@ function InputLoginCliente() {
           <div className={styles.caixaInput}>
             <div className={styles.inputcheck}>
               <input type="checkbox"/>
-              <label>Entre na Plataforma</label>
+              <label>Lembre-me por 30 dias</label>
             </div>
           </div>
     <BotaoLogin></BotaoLogin>
+    <div className={styles.caixaAjuda}>
+      <div className={styles.textoAjuda}>Esqueceu sua senha ?</div>
+      <div className={styles.textoAjuda}>Não possui conta ? Crie uma agora!</div>
+    </div>
     </div>
   )
 }

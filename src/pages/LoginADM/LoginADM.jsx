@@ -4,10 +4,14 @@ import InputLoginAdm from '../../components/Cadastro/Input/InputLoginAdm/InputLo
 import styles from './LoginADM.module.css'
 function LoginADM() {
   return (
-    <div className={styles.caixa}>
-      <Acessibilidade></Acessibilidade>
-       <InputLoginAdm></InputLoginAdm>
-    </div>
+    
+      <div className={styles.caixa}>
+        <Acessibilidade></Acessibilidade>
+        <div className={styles.inputADM}>
+          <InputLoginAdm></InputLoginAdm>
+        </div>
+      </div>
+
   )
 }
 

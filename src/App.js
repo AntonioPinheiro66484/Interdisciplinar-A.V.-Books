@@ -20,7 +20,6 @@ function App() {
               <Route path="/Administracaof" element={<Administracao/>}/>
               <Route path="/LoginCliente" element={<LoginCliente/>}/>
               <Route path="/LoginAdm" element={<LoginAdm/>}/>
-
           </Routes>
       </Router>
     </div>
