@@ -1,8 +1,8 @@
 import React from "react";
-import styles from '../Formulario/Formulario.module.css'
-import InputDados from "../Input/InputDados/InputDados";
-import InputEndereco from "../Input/InputEndereço/InputEndereco";
-import BotaoCadastrar from "../../Botoes/BotaoCadastrar";
+import styles from '../FormularioCliente/Formulario.module.css'
+import InputDados from "../../Input/InputDados/InputDados";
+import InputEndereco from "../../Input/InputEndereço/InputEndereco";
+import BotaoCadastrar from "../../../Botoes/BotaoCadastrar";
 
 
 const Formulario = ()=>{
