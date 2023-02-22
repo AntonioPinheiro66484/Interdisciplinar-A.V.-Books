@@ -1,0 +1,30 @@
+.botao{
+    height: 25%;
+    width: 25%;
+    background-color: #6B0EE2;
+    border-radius: 20px;
+    font-weight: 700;
+    font-size: 30px;
+    border: 2px solid #fff671 ;
+    cursor:pointer;
+    color: #fff671;
+    margin: 1%;
+}
+
+.logo{
+    margin: 1.5%;
+    height: 50%;
+    width: 50%;
+}
+
+@media (max-width: 750px){
+    .botao{
+    font-size: 20px;
+    }
+}
+
+@media (max-width: 525px){
+    .botao{
+    font-size: 14px;
+    }
+}
