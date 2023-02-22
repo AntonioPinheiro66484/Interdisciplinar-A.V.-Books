@@ -5,6 +5,12 @@ import NavBarADM from "../../components/NavBarADM/NavBarADM";
 import PreFooter from "../../components/Footer/Prefooter/PreFooter";
 import Footer from "../../components/Footer/Footer";
 import Acessibilidade from "../../components/Acessibilidade/Acessibilidade"
+import BotaoCharts from '../../components/Botoes/Adm/BotaoCharts'
+import BotaoDashboard from '../../components/Botoes/Adm/BotaoDashboard'
+import BotaoForms from '../../components/Botoes/Adm/BotaoForms'
+import BotaoTables from '../../components/Botoes/Adm/BotaoTables'
+import BotaoCalendar from '../../components/Botoes/Adm/BotaoCalendar'
+import BotaoErrors from '../../components/Botoes/Adm/BotaoErrors'
 
 const Administracao = ()=>{
     return(
@@ -12,7 +18,14 @@ const Administracao = ()=>{
         <Acessibilidade></Acessibilidade>
         <HeaderADM></HeaderADM>
         <NavBarADM></NavBarADM>
-        <PreFooter></PreFooter>
+        <div className={styles.botao}>
+        <BotaoCharts/>
+        <BotaoDashboard/>
+        <BotaoForms/>
+        <BotaoTables/>
+        <BotaoCalendar/>
+        <BotaoErrors/>
+        </div>
         <Footer></Footer>
 
         </div>
