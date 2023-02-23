@@ -7,7 +7,7 @@
     margin-top: 8%;
     display: flex;
     width: 700px;
-    height: 1200px;
+    height: 1100px;
     flex-direction: column;
     background-color:#6B0EE2;
     border-radius: 4px;
@@ -41,7 +41,7 @@
         margin-top: 8%;
         display: flex;
         width: 600px;
-        height: 1200px;
+        height: 1100px;
         flex-direction: column;
         background-color:#6B0EE2;
         border-radius: 4px;
@@ -71,7 +71,7 @@
         margin-top: 8%;
         display: flex;
         width: 500px;
-        height: 1200px;
+        height: 1050px;
         flex-direction: column;
         background-color:#6B0EE2;
         border-radius: 4px;
@@ -101,7 +101,7 @@
         margin-top: 8%;
         display: flex;
         width: 400px;
-        height: 1200px;
+        height: 1050px;
         flex-direction: column;
         background-color:#6B0EE2;
         border-radius: 4px;
@@ -128,6 +128,7 @@
     .caixaBotao{
         display: flex;
         align-items: center;
+        
     }
     
 }

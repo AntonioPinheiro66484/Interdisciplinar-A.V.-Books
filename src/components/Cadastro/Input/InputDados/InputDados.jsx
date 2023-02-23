@@ -25,7 +25,6 @@ const InputDados =()=>{
                 <input className={styles.input} type="password" placeholder="Digite sua senha..."></input>
             </div>
         </div>
-           
         </div>
         )
     
