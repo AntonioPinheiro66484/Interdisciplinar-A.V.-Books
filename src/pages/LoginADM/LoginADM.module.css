@@ -1,8 +1,12 @@
+.caixa{
+    flex-direction: column;
+}
+
 .inputADM{
+    padding-top:100px ;
     display: flex;
     flex-direction: column;
     background-color: #6b0ee2;
-    height: 1080px;
 }
 
 .caixaLogo{
@@ -14,7 +18,26 @@
 .logo{
     height: 100px;
     width: 100px;
-    /* margin-left: 100px; */
     margin-top:20px;
     
+}
+
+
+@media (max-height:812px){
+    .caixa{
+        display: flex;
+        flex-direction: column;
+        background-color: #6b0ee2;
+        height: 1200px;
+    
+    }
+
+    .inputADM{
+        padding-top:200px ;
+        display: flex;
+        flex-direction: column;
+        background-color: #6b0ee2;
+    }
+    
+
 }

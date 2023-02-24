@@ -6,7 +6,9 @@ function LoginCliente() {
   return (
     <div className={styles.caixa}>
       <Acessibilidade></Acessibilidade>
+      <div className={styles.InputCliente}>
        <InputLoginCliente></InputLoginCliente>
+      </div>
     </div>
   )
 }
