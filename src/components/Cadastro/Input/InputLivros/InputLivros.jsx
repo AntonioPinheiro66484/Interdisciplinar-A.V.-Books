@@ -27,7 +27,7 @@ const InputLivros = () => {
 
         <div className={styles.campoTexto}>
             <label class={styles.label}>Genero</label>
-            <input className={styles.input} type="password" placeholder="Digite o nome da editora do livro..."></input>
+            <input className={styles.input} type="password" placeholder="Digite o genero do livro..."></input>
         </div>
 
         <div className={styles.campoTexto}>
