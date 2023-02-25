@@ -15,7 +15,10 @@
     font-size: 40px;
     margin-top: 4.5%;
 }
-
+.titulosLogoSite{
+    margin-bottom: 1%;
+    margin-top: 2%;
+}
 .texto{
     color:rgb(230, 230, 118);
     font-size: 20px;
@@ -48,6 +51,7 @@ input::placeholder, input::textarea{
     justify-content: center;
     background-color: white;
     border-radius: 4px;
+    padding-left: 15px;
     
 }
 .caixaInput{
