@@ -6,12 +6,14 @@ import Body from "../../components/Body/Body";
 import PreFooter from "../../components/Footer/Prefooter/PreFooter";
 import Acessibilidade from "../../components/Acessibilidade/Acessibilidade"
 import Footer from "../../components/Footer/Footer";
+import Banner from "../../components/Banner/Banner";
 const Home = ()=>{
     return(
         <div>
             <Acessibilidade></Acessibilidade>
             <Header></Header>
             <NavBar></NavBar>
+            <Banner></Banner>
             <Body></Body>
             <PreFooter></PreFooter>
             <Footer></Footer>

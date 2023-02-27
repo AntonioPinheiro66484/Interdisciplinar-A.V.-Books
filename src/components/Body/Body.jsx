@@ -6,7 +6,8 @@ import Carrossel from '../Carrossel/Carrossel'
 
 
 const Body = ()=>{
-    return(<div className={styles.body}>
+    return(
+    <div className={styles.body}>
 
             <div className={styles.titulo}>Novidades</div>
                 <Carrossel></Carrossel>
