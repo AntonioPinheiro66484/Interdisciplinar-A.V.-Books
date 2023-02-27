@@ -3,7 +3,7 @@
 }
 .botao{
     margin-top: 40px;
-    width: 350px;
+    width: 400px;
     height: 50px;
     background-color: #E9ED37;
     font-weight: 700;
@@ -17,7 +17,7 @@
 @media (max-width:610px){
     .botao{
         margin-top: 40px;
-        width: 350px;
+        width: 400px;
         height: 50px;
         background-color: #E9ED37;
         font-weight: 700;

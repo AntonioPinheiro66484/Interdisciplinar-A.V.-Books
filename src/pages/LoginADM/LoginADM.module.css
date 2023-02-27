@@ -1,9 +1,12 @@
 .caixa{
+    display: flex;
     flex-direction: column;
+    background-color: #6b0ee2;
+    height: 100%;
 }
 
 .inputADM{
-    padding-top:100px ;
+    padding-top: 100px;
     display: flex;
     flex-direction: column;
     background-color: #6b0ee2;
