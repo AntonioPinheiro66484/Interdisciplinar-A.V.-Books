@@ -29,13 +29,13 @@ const NavBar = () => {
             <ul className={isMobile ? styles.navLinksMobile : styles.navLinks}
               onClick={()=>setIsMobile(false)}
             >
-              <li className={styles.item}><a  className={styles.link} href="#">Best Sellers</a></li>
-              <li className={styles.item}><a  className={styles.link} href="#">E-Books</a></li>
-              <li className={styles.item}><a  className={styles.link} href="#">Lançamentos</a>  </li>
-              <li className={styles.item}><a  className={styles.link} href="#">Romances</a></li>
-              <li className={styles.item}><a  className={styles.link} href="#">Infantis</a></li>
-              <li className={styles.item}><a  className={styles.link} href="#">Mangás</a></li>
-              <li className={styles.item}><a  className={styles.link} href="#">HQ's</a></li>
+              <li className={styles.item}><a  className={styles.link} href="/Pesquisa">Best Sellers</a></li>
+              <li className={styles.item}><a  className={styles.link} href="/Pesquisa">E-Books</a></li>
+              <li className={styles.item}><a  className={styles.link} href="/Pesquisa">Lançamentos</a>  </li>
+              <li className={styles.item}><a  className={styles.link} href="/Pesquisa">Romances</a></li>
+              <li className={styles.item}><a  className={styles.link} href="/Pesquisa">Infantis</a></li>
+              <li className={styles.item}><a  className={styles.link} href="/Pesquisa">Mangás</a></li>
+              <li className={styles.item}><a  className={styles.link} href="/Pesquisa">HQ's</a></li>
             </ul>
       </nav>
                  
