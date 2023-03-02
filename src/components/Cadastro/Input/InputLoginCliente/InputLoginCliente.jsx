@@ -31,7 +31,9 @@ function InputLoginCliente() {
     <BotaoLogin></BotaoLogin>
     <div className={styles.caixaAjuda}>
       <div className={styles.textoAjuda}>Esqueceu sua senha ?</div>
-      <div className={styles.textoAjuda}>Não possui conta ? Crie uma agora!</div>
+      <a  className={styles.textoAjuda} href='/Cadastro'>
+        <div >Não possui conta ? Crie uma agora!</div>
+      </a>
     </div>
     </div>
   )

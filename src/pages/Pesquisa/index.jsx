@@ -34,7 +34,6 @@ const Pesquisa =()=>{
                     <li><a href="/">Home</a></li>
                     <li><a href="/Pesquisa">Pesquisa</a></li>
                 </ul>
-
             </div>
 
             
@@ -65,8 +64,8 @@ const Pesquisa =()=>{
 
         </div>
 
-          
-            
+
+
              <div className={styles.produtosPesquisa}>
                     <Produtos/>
                     <Produtos/>

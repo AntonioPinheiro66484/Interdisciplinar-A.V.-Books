@@ -8,18 +8,24 @@ const Header = () => {
   return (
      <header className={styles.header}>
        <div className={styles.caixaLogo}>
-         <img className={styles.logo} src={AvBookslogo}/>
+         <a href='/'>
+            <img className={styles.logo} src={AvBookslogo}/>
+         </a>
          <div className={styles.titulosLogoSite}>A.V. Books</div>
        </div>
          <div className={styles.quadrado}>
             <input className={styles.barraPesquisa} type="text"/>
-            <div className={styles.caixaLupa}>
-               <img className={styles.lupa} src={Lupa} alt="Icone de lupa"/>
-            </div>
+            <a href='/Pesquisa'>
+               <div className={styles.caixaLupa}>
+                  <img className={styles.lupa} src={Lupa} alt="Icone de lupa"/>
+               </div>
+            </a>
          </div>
          <div className={styles.icons}>
             <div className={styles.caixaIcones1}>
-               <img className={styles.icon} src={Perfil} alt="Icone de perfil do cliente"/>
+               <a href='/LoginCliente'>
+                  <img className={styles.icon} src={Perfil} alt="Icone de perfil do cliente"/>
+               </a>
                <div className={styles.titulosLogos}>Perfil</div>
             </div>
             <div className={styles.caixaIcones2}>

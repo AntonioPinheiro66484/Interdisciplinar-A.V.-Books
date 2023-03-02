@@ -11,7 +11,7 @@ import Acessibilidade from "../../components/Acessibilidade/Acessibilidade"
 
 const DetalhesProduto = ()=>{
     return(
-        <div>
+        <div className={styles.caixa}>
         <Acessibilidade></Acessibilidade>
         <Header></Header>
         <NavBar></NavBar>
@@ -20,7 +20,6 @@ const DetalhesProduto = ()=>{
                 <li><a href="/">Home</a></li>
                 <li><a href="/DetalhesProduto">Produto</a></li>
             </ul>
-
         </div>
 
         <div className={styles.produto}>
