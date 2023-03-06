@@ -3,12 +3,13 @@
     color: #4c3d5f;
     font-size: 15px;
     padding-bottom: 20%;
+    align-items: center;
   
 }
 .filtro{
     height: 20px;
     width: 20px;
-    margin-left: 2px;
+    
     
 }
 .caixaFiltro{
@@ -21,10 +22,13 @@
 .info{
     margin-top: 15px;
     font-size: 10px;
+    align-items: center;
+    margin-right: 20%;
 }
 .tituloSelecionaveis{
     font-size: 13px;
     margin-top: 10%;
+
 }
 .categorias{
     display: flex;
@@ -51,13 +55,13 @@
 .areaTexts{
   display: flex;
   flex-direction: column;
-  margin-right: 70px;
   width: 200px;
   
   
 }
 .barraPesquisa{
     height: 16px;
+    width: 800px;
     margin-left: 10px;
     margin-top: 10%;
     border: 2px solid #8163A6;
@@ -82,4 +86,27 @@
     display: flex;
     width: 20px;
     height: 20px;
+}
+
+
+@media (max-width: 756px){
+
+    .info{
+        font-size: 23px;
+    }
+
+    .tituloSelecionaveis{
+        font-size: 23px;
+    }
+
+    .opcoes{
+        font-size: 15px;
+    }
+
+    .tituloTexts{
+        font-size: 20px;
+    }
+
+ 
+
 }
