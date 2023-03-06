@@ -1,10 +1,10 @@
 import React from "react";
-import FormularioPedido from "../../components/Cadastro/Formulario/FormularioPedido/FormularioPedido"
-import Footer from "../../components/Footer/Footer";
-import PreFooter from "../../components/Footer/Prefooter/PreFooter";
-import Header from "../../components/Header/Header";
-import NavBarADM from "../../components/NavBarADM/NavBarADM";
-import Acessibilidade from "../../components/Acessibilidade/Acessibilidade";
+import FormularioPedido from "../../components/Cadastro/Formulario/FormularioPedido"
+import Footer from "../../components/Footer";
+import PreFooter from "../../components/Footer/Prefooter";
+import Header from "../../components/Header";
+import NavBarADM from "../../components/NavBarADM";
+import Acessibilidade from "../../components/Acessibilidade";
 
 function CadastroPedido() {
   return (

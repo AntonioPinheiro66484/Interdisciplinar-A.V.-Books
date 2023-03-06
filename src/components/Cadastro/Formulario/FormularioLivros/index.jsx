@@ -1,14 +1,14 @@
 import React from "react";
-import styles from "./FormularioPedido.module.css"
-import InputPedido from "../../Input/InputPedido/InputPedido";
+import styles from "./FormularioLivros.module.css"
+import InputLivros from "../../Input/InputLivros";
 import BotaoCadastrar from "../../../Botoes/BotaoCadastrar";
 
 
-const FormularioPedido = ()=>{
+const Formulario = ()=>{
     return(<div className={styles.caixa}>
             <div className={styles.formulario}>
-                <h3 className={styles.titulo1}>Cadastrar Pedido</h3>
-                    <InputPedido/>
+                <h3 className={styles.titulo1}>Cadastrar livro</h3>
+                    <InputLivros/>
                 <div className={styles.caixaBotao}>
                     <BotaoCadastrar></BotaoCadastrar>
                 </div>
@@ -17,4 +17,4 @@ const FormularioPedido = ()=>{
     )
 }
 
-export default FormularioPedido
+export default Formulario

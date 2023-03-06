@@ -1,5 +1,5 @@
 import React from 'react'
-import InputLoginAdm from '../../components/Cadastro/Input/InputLoginAdm/InputLoginAdm'
+import InputLoginAdm from '../../components/Cadastro/Input/InputLoginAdm'
 import styles from './LoginADM.module.css'
 function LoginADM() {
   return (

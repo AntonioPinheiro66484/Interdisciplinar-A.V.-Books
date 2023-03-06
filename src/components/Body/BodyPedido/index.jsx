@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./BodyPedido.module.css"
-import Carrossel from "../../Carrossel/Carrossel";
+import Carrossel from "../../Carrossel";
 const BodyPedido =()=>{
     return(
         <div className={styles.caixa}>

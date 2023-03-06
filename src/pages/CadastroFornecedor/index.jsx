@@ -1,10 +1,10 @@
 import React from "react";
-import FormularioFornecedor from "../../components/Cadastro/Formulario/FormularioFornecedor/FormularioFornecedor"
-import Footer from "../../components/Footer/Footer";
-import PreFooter from "../../components/Footer/Prefooter/PreFooter";
-import Header from "../../components/Header/Header";
-import NavBarADM from "../../components/NavBarADM/NavBarADM";
-import Acessibilidade from "../../components/Acessibilidade/Acessibilidade";
+import FormularioFornecedor from "../../components/Cadastro/Formulario/FormularioFornecedor"
+import Footer from "../../components/Footer";
+import PreFooter from "../../components/Footer/Prefooter";
+import Header from "../../components/Header";
+import NavBarADM from "../../components/NavBarADM";
+import Acessibilidade from "../../components/Acessibilidade";
 
 function CadastroFornecedor() {
   return (

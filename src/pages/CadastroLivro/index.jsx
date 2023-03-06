@@ -1,10 +1,10 @@
 import React from "react";
-import FormularioLivros from "../../components/Cadastro/Formulario/FormularioLivros/FormularioLivros"
-import Footer from "../../components/Footer/Footer";
-import PreFooter from "../../components/Footer/Prefooter/PreFooter";
-import Header from "../../components/Header/Header";
-import NavBarADM from "../../components/NavBarADM/NavBarADM";
-import Acessibilidade from "../../components/Acessibilidade/Acessibilidade";
+import FormularioLivros from "../../components/Cadastro/Formulario/FormularioLivros"
+import Footer from "../../components/Footer";
+import PreFooter from "../../components/Footer/Prefooter";
+import Header from "../../components/Header";
+import NavBarADM from "../../components/NavBarADM";
+import Acessibilidade from "../../components/Acessibilidade";
 
 function CadastroLivro() {
   return (

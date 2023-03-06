@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from './Body.module.css'
-import Produtos from '../Produtos/Produtos'
-import Carrossel from '../Carrossel/Carrossel'
+import Produtos from '../Produtos'
+import Carrossel from '../Carrossel'
 
 
 

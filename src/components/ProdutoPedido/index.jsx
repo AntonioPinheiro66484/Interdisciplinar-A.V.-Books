@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./ProdutoPedido.module.css"
 import Livro1 from "../../assets/images/Livros/Gravity Falls - O diário perdido.png"
-import Pedido from "../DescricaoPedido/DescricaoPedido";
+import Pedido from "../DescricaoPedido";
 
 const ProdutoPedido =()=>{
     return(

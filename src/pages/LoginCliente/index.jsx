@@ -1,5 +1,5 @@
 import React from 'react'
-import InputLoginCliente from '../../components/Cadastro/Input/InputLoginCliente/InputLoginCliente'
+import InputLoginCliente from '../../components/Cadastro/Input/InputLoginCliente'
 import styles from './LoginCliente.module.css'
 function LoginCliente() {
   return (

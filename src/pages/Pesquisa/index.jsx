@@ -1,17 +1,17 @@
 import React from "react";
 import { useState } from 'react'
 import styles from "./Pesquisa.module.css"
-import Header from "../../components/Header/Header";
-import NavBar from "../../components/NavBar/NavBar";
-import Body from "../../components/Body/Body";
-import PreFooter from "../../components/Footer/Prefooter/PreFooter";
-import Footer from "../../components/Footer/Footer";
-import Produtos from "../../components/Produtos/Produtos";
-import Filtros from "../../components/Filtros/Filtros";
+import Header from "../../components/Header";
+import NavBar from "../../components/NavBar";
+import Body from "../../components/Body";
+import PreFooter from "../../components/Footer/Prefooter";
+import Footer from "../../components/Footer";
+import Produtos from "../../components/Produtos";
+import Filtros from "../../components/Filtros";
 import Identificador from "../../components/Botoes/Paginacao/Identificador";
 import Incrementar from "../../components/Botoes/Paginacao/Incrementar";
 import Decrementar from "../../components/Botoes/Paginacao/Decrementar";
-import Acessibilidade from "../../components/Acessibilidade/Acessibilidade";
+import Acessibilidade from "../../components/Acessibilidade";
 import setaEsquerda from  "../../assets/icons/seta-esquerda.png"
 import setaDireita from  "../../assets/icons/seta-direita.png"
 

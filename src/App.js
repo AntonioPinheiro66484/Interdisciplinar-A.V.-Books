@@ -8,8 +8,8 @@ import CadastroPedido from './pages/CadastroPedido'
 import DetalhesProduto from './pages/DetalhesProduto'
 import Pesquisa from './pages/Pesquisa'
 import Administracao from './pages/Administracao'
-import LoginCliente from './pages/LoginCliente/LoginCliente';
-import LoginAdm from './pages/LoginADM/LoginADM';
+import LoginCliente from './pages/LoginCliente';
+import LoginAdm from './pages/LoginADM';
 
 
 function App() {

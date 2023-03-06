@@ -1,10 +1,10 @@
 import React from "react";
-import Formulario from "../../components/Cadastro/Formulario/FormularioCliente/Formulario";
-import Footer from "../../components/Footer/Footer";
-import PreFooter from "../../components/Footer/Prefooter/PreFooter";
-import Header from "../../components/Header/Header";
-import NavBar from "../../components/NavBar/NavBar";
-import Acessibilidade from "../../components/Acessibilidade/Acessibilidade";
+import Formulario from "../../components/Cadastro/Formulario/FormularioCliente";
+import Footer from "../../components/Footer";
+import PreFooter from "../../components/Footer/Prefooter";
+import Header from "../../components/Header";
+import NavBar from "../../components/NavBar";
+import Acessibilidade from "../../components/Acessibilidade";
 import styles from "./Cadastro.module.css";
 
 
