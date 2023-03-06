@@ -18,5 +18,4 @@ function CadastroLivro() {
     </div>
   )
 }
-
 export default CadastroLivro

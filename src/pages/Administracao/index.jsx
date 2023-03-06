@@ -19,12 +19,12 @@ const Administracao = ()=>{
         <HeaderADM></HeaderADM>
         <NavBarADM></NavBarADM>
         <div className={styles.botao}>
-        <BotaoCharts/>
-        <BotaoDashboard/>
-        <BotaoForms/>
-        <BotaoTables/>
-        <BotaoCalendar/>
-        <BotaoErrors/>
+            <BotaoCharts/>
+            <BotaoDashboard/>
+            <BotaoForms/>
+            <BotaoTables/>
+            <BotaoCalendar/>
+            <BotaoErrors/>
         </div>
         <Footer></Footer>
 
