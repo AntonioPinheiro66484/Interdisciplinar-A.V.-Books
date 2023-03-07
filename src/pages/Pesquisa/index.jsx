@@ -38,7 +38,7 @@ const Pesquisa =()=>{
                 <Filtros/>
             </div>
 
-         {/* <div className={styles.caixaBotaoFiltro}>
+         <div className={styles.caixaBotaoFiltro}>
             <button className={styles.botaoFiltro}
             onClick={()=> setIsFiltro(!isFiltro)}
             >
@@ -48,15 +48,14 @@ const Pesquisa =()=>{
                 <img className={styles.imgSetaDireita} src={setaDireita}/>
                )}
          </button>
-       </div> */}
+       </div> 
 
-
-         {/* <div className={isFiltro ? styles.caixaFiltro : styles.caixaFiltro}
+         <div className={isFiltro ? styles.caixaFiltro : styles.caixaFiltro}
               onClick={()=>setIsFiltro(false)}
             >
        
 
-        </div> */}
+        </div>
              <div className={styles.produtosPesquisa}>
                     <Produtos/>
                     <Produtos/>
