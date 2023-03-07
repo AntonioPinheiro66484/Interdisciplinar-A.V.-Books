@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from './DescricaoPedido.module.css'
+import styles from './Pedido.module.css'
 import BotaoAdicionar from '../Botoes/BotãoAdicionar'
 import BotaoComprar from '../Botoes/BotãoComprar'
 

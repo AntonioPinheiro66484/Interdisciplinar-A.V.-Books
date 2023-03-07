@@ -4,7 +4,6 @@ import Header from "../../components/Header";
 import NavBar from "../../components/NavBar";
 import PreFooter from "../../components/Footer/Prefooter";
 import Footer from "../../components/Footer";
-import Carrossel from '../../components/Carrossel'
 import BodyPedido from '../../components/Body/BodyPedido';
 import Acessibilidade from "../../components/Acessibilidade"
 import ProdutoPedido from '../../components/ProdutoPedido';

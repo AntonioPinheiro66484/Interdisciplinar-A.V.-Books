@@ -1,3 +1,10 @@
+.caixa{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+
 .breadcrumb{
     padding-top: 15px;
     font-family: Arial, Helvetica, sans-serif;

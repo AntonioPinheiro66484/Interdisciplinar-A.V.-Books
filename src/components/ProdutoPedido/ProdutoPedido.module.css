@@ -1,6 +1,6 @@
 .produto{
     display: flex;
-    margin: 20px
+
 }
 
 .imagem img{
@@ -10,8 +10,10 @@
         width: 90%;
         height: 90%;
     }
-    
     .pedido{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
         width: 100%;
         height: 100%;
 }
@@ -48,20 +50,22 @@
     }
 }
 
-@media (max-width: 857px){
+@media (max-width: 957px){
     .produto{
-        width: 100%;
+        
+        width:fit-content;
         height: 100%;
+        margin: 0px;
         display: flex;
-        flex-direction:column;
+        flex-direction: column;
         align-items: center;
     }
 
     .imagem img{
         display: flex;
         flex-direction: row;
-        width: 50%;
-        height: 50%;
+        width: 55%;
+        height: 55%;
     }
 
 }
