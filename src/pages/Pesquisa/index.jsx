@@ -34,9 +34,17 @@ const Pesquisa =()=>{
                 </ul>
             </div>
             <div className={styles.conteudo}>
+           
+            
+         <div className={isFiltro ? styles.caixaComFiltro : styles.caixaSemFiltro}
+              onClick={()=>setIsFiltro(false)}
+            >
+
             <div className={styles.caixaFiltros}>
                 <Filtros/>
             </div>
+
+        </div>
 
          <div className={styles.caixaBotaoFiltro}>
             <button className={styles.botaoFiltro}
@@ -50,12 +58,6 @@ const Pesquisa =()=>{
          </button>
        </div> 
 
-         <div className={isFiltro ? styles.caixaFiltro : styles.caixaFiltro}
-              onClick={()=>setIsFiltro(false)}
-            >
-       
-
-        </div>
              <div className={styles.produtosPesquisa}>
                     <Produtos/>
                     <Produtos/>

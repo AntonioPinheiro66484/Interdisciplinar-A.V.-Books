@@ -36,19 +36,7 @@
     justify-content: center;
     width: auto;  
     margin-top: 2%;
-
-}
-.caixaFiltros{
-    display: flex;
-    height: fit-content;
-    margin-top: 20px;
-    border: 2px solid #8163A6;
-    border-radius: 5px;
-    width: 210px;
-    margin-right: 0.52%;
-    display: none;
     
-  
 }
 
 .caixaBotaoFiltro{
@@ -58,9 +46,9 @@
     width: 30px;
     align-items: start;
     justify-content: center;
-    margin-top: 23%;
+    margin-top: 21%;
     margin-right: 5%;
-    display: none;
+    margin-left: 0.50%;
    
 }
 
@@ -73,28 +61,46 @@
 .imgSetaDireita{
     height: 30px;
     width: 30px;
+
 }
 
 .botaoFiltro{
+    display: flex;
+    align-items: center;
     background-color: #ffffff;
     border: 2px solid #8163a6;
     border-left: #8163A6;
     border-radius: 5px;
     border-top-left-radius: 0px;
     border-bottom-left-radius: 0px;
+    
+    
 }
-
-
-
+.caixaComFiltro .caixaFiltros{
+    display: flex;
+    height: fit-content;
+    margin-top: 20px;
+    border: 2px solid #8163A6;
+    border-radius: 5px;
+    width: 210px;
+    margin-right: 0.52%;
+    justify-self: start;            
+}
+.caixaSemFiltro {
+    display: none;
+    white-space: nowrap;
+    height: 40px;
+    
+}
 .produtosPesquisa{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     margin-top: 2%;
-    margin-left: 1.5%;
-        
+    margin-right: 5%;
    
+        
 }
 .caixaPaginacao{
     display: flex;
