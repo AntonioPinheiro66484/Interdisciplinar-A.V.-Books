@@ -70,10 +70,4 @@
 
 }
 
-@media (max-width: 550px){
-    .imagem img{
-        flex-direction: column;
-        width: 50%;
-        height: 50%;
-    }
-}
+    
