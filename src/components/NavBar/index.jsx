@@ -1,12 +1,7 @@
 import React, {useState} from 'react';
-import { BrowserRouter } from 'react-router-dom';
 import styles from './NavBar.module.css'
 import MenuImg from '../../assets/icons/menu.png'
 import cancelImg from '../../assets/icons/fechar.png'
-import { fas } from  '@fortawesome/free-solid-svg-icons'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-
-
 
 
 const NavBar = () => {
@@ -26,9 +21,11 @@ const NavBar = () => {
                )}
             </button>
         </div>
+
             <ul className={isMobile ? styles.navLinksMobile : styles.navLinks}
               onClick={()=>setIsMobile(false)}
             >
+
               <li className={styles.item}><a  className={styles.link} href="/Pesquisa">Best Sellers</a></li>
               <li className={styles.item}><a  className={styles.link} href="/Pesquisa">E-Books</a></li>
               <li className={styles.item}><a  className={styles.link} href="/Pesquisa">Lançamentos</a>  </li>
