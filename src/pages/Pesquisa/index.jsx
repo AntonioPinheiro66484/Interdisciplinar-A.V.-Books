@@ -35,28 +35,13 @@ const Pesquisa =()=>{
             </div>
             <div className={styles.conteudo}>
            
-            
-         <div className={isFiltro ? styles.caixaComFiltro : styles.caixaSemFiltro}
-              onClick={()=>setIsFiltro(false)}
-            >
+         
 
             <div className={styles.caixaFiltros}>
                 <Filtros/>
             </div>
 
-        </div>
-
-         <div className={styles.caixaBotaoFiltro}>
-            <button className={styles.botaoFiltro}
-            onClick={()=> setIsFiltro(!isFiltro)}
-            >
-              {isFiltro ? (
-                <img className={styles.imgSetaEsquerda} src={setaEsquerda}/>
-               ):(
-                <img className={styles.imgSetaDireita} src={setaDireita}/>
-               )}
-         </button>
-       </div> 
+       
 
              <div className={styles.produtosPesquisa}>
                     <Produtos/>

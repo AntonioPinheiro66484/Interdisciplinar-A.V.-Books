@@ -38,59 +38,14 @@
     margin-top: 2%;
     
 }
-
-.caixaBotaoFiltro{
+.caixaFiltros{
     display: flex;
-    flex-direction: row;
-    height: 30px;
-    width: 30px;
-    align-items: start;
-    justify-content: center;
-    margin-top: 21%;
-    margin-right: 5%;
-    margin-left: 0.50%;
-   
-}
-
-.imgSetaEsquerda{
-    height: 30px;
-    width: 30px;
-    
-}
-
-.imgSetaDireita{
-    height: 30px;
-    width: 30px;
-
-}
-
-.botaoFiltro{
-    display: flex;
-    align-items: center;
-    background-color: #ffffff;
-    border: 2px solid #8163a6;
-    border-left: #8163A6;
-    border-radius: 5px;
-    border-top-left-radius: 0px;
-    border-bottom-left-radius: 0px;
-    
-    
-}
-.caixaComFiltro .caixaFiltros{
-    display: flex;
-    height: fit-content;
-    margin-top: 20px;
     border: 2px solid #8163A6;
     border-radius: 5px;
-    width: 210px;
-    margin-right: 0.52%;
-    justify-self: start;            
-}
-.caixaSemFiltro {
-    display: none;
-    white-space: nowrap;
-    height: 40px;
-    
+    height: fit-content;
+    width: 220px;
+    margin-right: 5%;
+
 }
 .produtosPesquisa{
     display: flex;
@@ -114,6 +69,14 @@
 
 /*Responsividade*/
 
+@media (max-width: 990px){
+
+    .caixaFiltros{
+        margin-left: 4%;
+
+    }
+
+}
 
 @media (max-width: 756px){
 
@@ -133,7 +96,7 @@
         flex-direction: row;
         align-items: center;
         justify-content: center;
-        width: 300px;
+        width: 250px;
         
      
     }

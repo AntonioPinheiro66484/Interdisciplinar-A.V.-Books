@@ -3,12 +3,15 @@
     color: #4c3d5f;
     font-size: 15px;
     padding-bottom: 20%;
+    padding-top: 2%;
     align-items: center;
+    
   
 }
 .filtro{
     height: 20px;
     width: 20px;
+    margin-left: 5%;
     
     
 }
@@ -21,20 +24,21 @@
 }
 .info{
     margin-top: 15px;
-    font-size: 10px;
+    font-size: px;
     align-items: center;
-    margin-right: 20%;
+   
 }
 .tituloSelecionaveis{
-    font-size: 13px;
+    font-size: 14px;
     margin-top: 10%;
+    
 
 }
 .categorias{
     display: flex;
     flex-direction: column;
     margin-top: 10px;
-    font-size: 11.5px;
+    font-size: 13px;
     
 }
 .selecionavel{
@@ -47,16 +51,15 @@
     padding: 5px;
 }
 .tituloTexts{
-    font-size: 13px;
+    font-size: 15px;
     margin-top: 15%;
     text-align: justify;
-    margin-left: 25px;
+    margin-left: 20px;
 }
 .areaTexts{
   display: flex;
   flex-direction: column;
   width: 200px;
-  
   
 }
 .barraPesquisa{
@@ -88,23 +91,29 @@
     height: 20px;
 }
 
+@media (max-width: 838px){
+    .caixaLupa{
+        padding-right: 2%;
+    }
 
+
+}
 @media (max-width: 756px){
 
     .info{
-        font-size: 23px;
-    }
-
-    .tituloSelecionaveis{
-        font-size: 23px;
-    }
-
-    .opcoes{
         font-size: 15px;
     }
 
+    .tituloSelecionaveis{
+        font-size: 15px;
+    }
+
+    .opcoes{
+        font-size: 12.5px;
+    }
+
     .tituloTexts{
-        font-size: 20px;
+        font-size: 15px;
     }
 
  

@@ -14,10 +14,10 @@
     width: 105px;
 }
 
-@media (max-width: 478px){
+@media (max-width: 586px){
 
     .botao{
-        height: 50px;
+        height: 40px;
         background-color: #fff671;
         border-radius: 10px;
         font-weight: 700;
@@ -25,6 +25,7 @@
         border: 2px solid #8163a6 ;
         cursor:pointer;
         color: #8163a6;
+        
     }
 
     .botao:hover{
@@ -34,23 +35,3 @@
 
 }
 
-@media (max-width: 478px){
-
-    .botao{
-        height: 45px;
-        width: 95px;
-        background-color: #fff671;
-        border-radius: 10px;
-        font-weight: 700;
-        font-size: 18px;
-        border: 2px solid #8163a6 ;
-        cursor:pointer;
-        color: #8163a6;
-    }
-
-    .botao:hover{
-        height: 55px;
-        width: 105px;
-    }
-
-}
