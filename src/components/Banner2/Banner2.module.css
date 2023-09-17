@@ -1,0 +1,8 @@
+.banner2{
+    display: flex;
+    width: 100%;
+    margin-top: 5%;
+    border: 2px solid #4c3d5f;
+    border-left: #4c3d5f;
+    border-right: #4c3d5f;
+}

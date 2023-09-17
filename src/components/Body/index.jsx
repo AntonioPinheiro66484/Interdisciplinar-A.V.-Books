@@ -1,8 +1,7 @@
 import React from 'react'
 import styles from './Body.module.css'
-import Produtos from '../Produtos'
 import Carrossel from '../Carrossel'
-
+import BannerIntermediario from '../../components/Banner2/index.jsx'
 
 
 const Body = ()=>{
@@ -14,6 +13,8 @@ const Body = ()=>{
         
             <div className={styles.titulo}>Populares</div>
                 <Carrossel></Carrossel>
+
+            <BannerIntermediario></BannerIntermediario>
 
             <div className={styles.titulo}>Clássicos</div>
                 <Carrossel></Carrossel>
