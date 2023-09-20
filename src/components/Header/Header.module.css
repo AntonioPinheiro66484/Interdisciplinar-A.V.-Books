@@ -4,35 +4,26 @@
     align-items: center;
     justify-content: space-around;
     background-color: #6b0ee2;
-    padding-bottom: 40px;
+    padding-bottom: 20px;
     font-family: Arial, Helvetica, sans-serif;
+    
 }
 
 .caixaLogo{
     display: flex;
     flex-direction: column;
     color: yellow;
-    margin-left:7%;
+    margin-left: 3%;
 }
 
 .logo{
     height: 100px;
     width: 100px;
     /* margin-left: 100px; */
-    margin-top:20px;
+    margin-top: 12px;
     
 }
-.titulosLogoSite{
-    font-family: Arial, Helvetica, sans-serif;
-    color: yellow;
-    margin-top: 20px;
-}
-.titulosLogos{
-    font-family: Arial, Helvetica, sans-serif;
-    color: #ffffff;
-    margin-top: 20px;
-    
-}
+
 
 .icons{
     display: flex;  
@@ -45,6 +36,8 @@
     display: flex;
     flex-direction: column;
     margin-right: 48px;
+    text-decoration: none;
+
 }
 
 .caixaIcones2{
@@ -53,12 +46,42 @@
     margin-right: 48px;
 }
 
-.icon{
-    margin-top:40px;
-    width: 50px;
-    height: 50px;
+.caixaIcones3{
+    display: flex;
+    flex-direction: row;
 }
 
+.titulosSite{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 18px;
+    margin-top: 32%;
+    margin-left: 22%;
+}
+
+.links{
+    text-decoration: none;
+}
+
+.icon1{
+    margin-top: 30px;
+    width: 45px;
+    height: 45px;
+    margin-left: 15px;
+}
+
+.icon2{
+    margin-top: 30px;
+    width: 45px;
+    height: 45px;
+    margin-left: 24.2px;
+}
+
+.iconMenu{
+    margin-top: 30px;
+    width: 33px;
+    height: 33px;
+}
 .divisao{
     display: inline-flex;
     flex-direction: column;
@@ -66,7 +89,7 @@
 
 .barraPesquisa{
     padding-left: 10px;
-    margin-top:40px;
+    margin-top: 30px;
     background: #fff;
     width: 580px;
     height: 41px;
@@ -88,7 +111,7 @@
     border: 2px solid #ffffff;
     width: 35px;
     height: 37px;
-    margin-top: 40px;
+    margin-top: 30px;
     display: flex;
     align-items: center;
     justify-content: space-around;

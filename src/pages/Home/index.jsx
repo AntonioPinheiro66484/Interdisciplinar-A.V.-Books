@@ -10,9 +10,7 @@ import Banner from "../../components/Banner";
 const Home = ()=>{
     return(
         <div>
-            <Acessibilidade></Acessibilidade>
             <Header></Header>
-            <NavBar></NavBar>
             <Banner></Banner>
             <Body></Body>
             <PreFooter></PreFooter>

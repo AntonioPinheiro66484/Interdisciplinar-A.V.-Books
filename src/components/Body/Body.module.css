@@ -3,7 +3,8 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-    background-color: #FFF;
+    background-color: #ffffff;
+    margin-bottom: 100px;
 
 }
 

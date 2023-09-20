@@ -2,6 +2,7 @@ import React from 'react'
 import styles from './Header.module.css'
 import AvBookslogo from "../../assets/images/Imagens/logo.png"
 import Perfil from '../../assets/icons/perfil.png'  
+import MenuImg from '../../assets/icons/menu.png'
 import Carrinho from '../../assets/icons/carrinho.png'
 import Lupa from '../../assets/icons/lupa.png'
 const Header = () => {
@@ -11,8 +12,11 @@ const Header = () => {
          <a href='/'>
             <img className={styles.logo} src={AvBookslogo}/>
          </a>
-         <div className={styles.titulosLogoSite}>A.V. Books</div>
        </div>
+       <div className={styles.caixaIcones3}>
+               <img className={styles.iconMenu} src={MenuImg} alt="icone de menu"/>
+               <div className={styles.titulosSite}>Categorias</div>
+            </div>
          <div className={styles.quadrado}>
             <input className={styles.barraPesquisa} type="text"/>
             <a href='/Pesquisa'>
@@ -23,14 +27,14 @@ const Header = () => {
          </div>
          <div className={styles.icons}>
             <div className={styles.caixaIcones1}>
-               <a href='/LoginCliente'>
-                  <img className={styles.icon} src={Perfil} alt="Icone de perfil do cliente"/>
+               <a className={styles.links} href='/LoginCliente'>
+                  <img className={styles.icon1} src={Perfil} alt="Icone de perfil do cliente"/>
+                  <div className={styles.titulosSite}>Perfil</div>
                </a>
-               <div className={styles.titulosLogos}>Perfil</div>
             </div>
             <div className={styles.caixaIcones2}>
-               <img className={styles.icon} src={Carrinho} alt="icone de carrinho do cliente"/>
-               <div className={styles.titulosLogos}>Carrinho</div>
+               <img className={styles.icon2} src={Carrinho} alt="icone de carrinho do cliente"/>
+               <div className={styles.titulosSite}>Carrinho</div>
             </div>
          </div>
 
