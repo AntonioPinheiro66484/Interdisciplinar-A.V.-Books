@@ -11,14 +11,19 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-color: white;
+    background-color: #202024;
     border-radius: 4px;
     padding-left: 15px;
 }
+
+.input::placeholder{
+    color: #e9ed37;
+}
+
 .label{  
     display: flex !important;
     font-size:x-large;
-    color:#F9FAC4; 
+    color:#e9ed37; 
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -56,13 +61,13 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
-        background-color: white;
+        background-color: #202024;
         border-radius: 4px;
         
     }
     .label{
         font-size: large;
-        color:#F9FAC4; 
+        color:#e9ed37; 
         font-weight: bold;
         text-align: start;
         font-family: Arial, Helvetica, sans-serif;
