@@ -6,10 +6,10 @@
 .caixa{
     display: flex;
     width: 100%;
-    background-color: #dedcdc;
+    background-color: #eeeeee;
     height: 90px;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
 
 }
 
@@ -17,7 +17,6 @@
     display: flex;
     color: rgb(114, 114, 114);
     align-self: center;
-    margin-left: 230px;
     font-family:  Arial, sans-serif;
     
 }

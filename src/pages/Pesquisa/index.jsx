@@ -4,8 +4,8 @@ import styles from "./Pesquisa.module.css"
 import Header from "../../components/Header";
 import PreFooter from "../../components/Footer/Prefooter";
 import Footer from "../../components/Footer";
+import SubFooter from "../../components/Footer/Subfooter"
 import Produtos from "../../components/Produtos";
-import Filtros from "../../components/Filtros";
 import Identificador from "../../components/Botoes/Paginacao/Identificador";
 import Incrementar from "../../components/Botoes/Paginacao/Incrementar";
 import Decrementar from "../../components/Botoes/Paginacao/Decrementar";
@@ -27,14 +27,6 @@ const Pesquisa =()=>{
             </div>
             <div className={styles.conteudo}>
            
-         
-
-            <div className={styles.caixaFiltros}>
-                <Filtros/>
-            </div>
-
-       
-
              <div className={styles.produtosPesquisa}>
                     <Produtos/>
                     <Produtos/>
@@ -50,6 +42,7 @@ const Pesquisa =()=>{
              
             <PreFooter></PreFooter>
             <Footer></Footer>
+            <SubFooter></SubFooter>
         </div>
     )
 }

@@ -3,6 +3,7 @@ import styles from './DetalhesProduto.module.css'
 import Header from "../../components/Header";
 import PreFooter from "../../components/Footer/Prefooter";
 import Footer from "../../components/Footer";
+import SubFooter from "../../components/Footer/Subfooter";
 import BodyPedido from '../../components/Body/BodyPedido';
 import ProdutoPedido from '../../components/ProdutoPedido';
 
@@ -20,6 +21,7 @@ const DetalhesProduto = ()=>{
             <BodyPedido/>
             <PreFooter></PreFooter>
             <Footer></Footer>
+            <SubFooter></SubFooter>
         </div>
     )
 }
