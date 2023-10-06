@@ -12,6 +12,7 @@ import Botao from "../Botoes/Botao"
 function SampleNextArrow(props) {
   const { className, style, onClick } = props;
   return (
+    
     <div
       className={className}
       style={{ ...style, display: "block", background: "#8163A6" }}
