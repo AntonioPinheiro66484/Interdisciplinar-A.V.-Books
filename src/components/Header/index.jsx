@@ -2,9 +2,10 @@ import React from 'react'
 import styles from './Header.module.css'
 import AvBookslogo from "../../assets/images/Imagens/logo.png"
 import Perfil from '../../assets/icons/perfil.png'  
-import MenuImg from '../../assets/icons/menu.png'
+import Menu from '../../components/Botoes/BotaoMenu'
 import Carrinho from '../../assets/icons/carrinho.png'
 import Lupa from '../../assets/icons/lupa.png'
+
 const Header = () => {
   return (
      <header className={styles.header}>
@@ -14,9 +15,9 @@ const Header = () => {
          </a>
        </div>
        <div className={styles.caixaIcone1}>
-               <img className={styles.iconMenu} src={MenuImg} alt="icone de menu"/>
-               <div className={styles.tituloCategoria}>Categorias</div>
-            </div>
+               <Menu></Menu>
+               <div className={styles.tituloCategoria}>Categorias</div> 
+         </div>
          <div className={styles.quadrado}>
             <input className={styles.barraPesquisa} type="text" placeholder="Pesquisa..."/>
             <a href='/Pesquisa'>

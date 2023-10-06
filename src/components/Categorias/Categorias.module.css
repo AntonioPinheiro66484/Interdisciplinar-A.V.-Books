@@ -1,0 +1,9 @@
+.menu{
+    display: flex;
+    background-color: #202024;
+    color: #ffffff;
+    position: absolute;
+    margin-top: 1%;
+    width: 70%;
+    height: 70%;
+}

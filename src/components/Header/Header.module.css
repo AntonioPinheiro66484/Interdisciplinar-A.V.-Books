@@ -7,6 +7,10 @@
     background-color: #6b0ee2;
     padding-bottom: 20px;
     font-family: Arial, Helvetica, sans-serif;
+    border: 2px solid #4c3d5f;
+    border-top: #4c3d5f;
+    border-left: #4c3d5f;
+    border-right: #4c3d5f;
     
 }
 
@@ -27,19 +31,16 @@
 .caixaIcone1{
     display: flex;
     flex-direction: row;
-}
-
-.iconMenu{
-    margin-top: 26px;
-    width: 38px;
-    height: 34px;
+    width: fit-content;
+    margin-top: 9px;
+    
 }
 
 .tituloCategoria{
     font-family: Arial, Helvetica, sans-serif;
     color: white;
     font-size: 18px;
-    margin-top: 28%;
+    margin-top: 27.5%;
     margin-left: 22%;
 }
 
@@ -53,8 +54,8 @@
 .caixaLupa{
     border: 2px solid #ffffff;
     width: 35px;
-    height: 37px;
-    margin-top: 25px;
+    height: 38px;
+    margin-top: 32px;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -132,7 +133,7 @@
 
 .barraPesquisa{
     padding-left: 10px;
-    margin-top: 25px;
+    margin-top: 32px;
     background: #fff;
     width: 580px;
     height: 41px;
