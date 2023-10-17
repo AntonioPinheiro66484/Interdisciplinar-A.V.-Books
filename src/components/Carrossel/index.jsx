@@ -5,10 +5,10 @@ import Livro1 from '../../assets/images/Livros/A Arte da Guerra.png'
 import Livro2 from '../../assets/images/Livros/Cemitério Maldito.png'
 import Livro3 from '../../assets/images/Livros/Gravity Falls - O diário perdido.png'
 import Livro4 from '../../assets/images/Livros/It- A coisa.png'
-
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import Botao from "../Botoes/Botao"
+
 function SampleNextArrow(props) {
   const { className, style, onClick } = props;
   return (
