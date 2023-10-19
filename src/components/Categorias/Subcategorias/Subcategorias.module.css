@@ -1,0 +1,11 @@
+.caixaSubcategorias{
+    display: flex;
+    border: 3px solid #4c3d5f;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    margin-top: 0;
+    padding: 10px;
+    background-color: #f0f0f0;
+    width: 20%;
+}
