@@ -1,11 +1,7 @@
 import React, {useState} from 'react';
 import styles from './Categorias.module.css'
-import ListaBestSellers from './ListaBestSellers/listaBestSellers';
-import ListaEbooks from './ListaEbooks/listaEbooks';
-import ListaLancamentos from './ListaLancamentos/listaLancamentos';
-import ListaRomances from './ListaRomances/listaRomances';
-import ListaMangas from './ListaMangas/listaMangas';
-import ListaHQs from './ListaHQs/listaHQs';
+import {ListaBestSellers, ListaEbooks, ListaLancamentos, ListaRomances, ListaMangas, ListaHQs} from './Subcategorias/Subcategorias'
+
 
 
 const DropdownMenu = () => {
@@ -36,7 +32,9 @@ const DropdownMenu = () => {
         <li onMouseEnter={() => handleMouseEnter(4)} onMouseLeave={() => handleMouseLeave(4)}>Mangás {hoveredItems[4] && <ListaMangas/>}</li>
         <li onMouseEnter={() => handleMouseEnter(5)} onMouseLeave={() => handleMouseLeave(5)}>HQ's {hoveredItems[5] && <ListaHQs/>}</li>
       </ul>
-    </div>
+
+      
+   </div>
   );
 };
 
