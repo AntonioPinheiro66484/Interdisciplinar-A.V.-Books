@@ -1,149 +1,59 @@
-.barraAcessibilidade{
+.caixa{
     display: flex;
-    background-color: #6b0ee2;
+    padding-block: 2rem;
+    padding-inline: 1.5rem;
+    flex-direction: column;
+    min-height: calc(100vh - 36.5rem);
+}
+
+.tituloPrincipal{
+    color: #0b6374;
+    font-size: 1.5em;
+    padding-bottom: 2rem;
+}
+
+.caixaBloco{
+    display: flex;
+    justify-content: center;
     align-items: center;
+    flex-direction: column;
+    width: 100%;
+    gap: 1rem;
+}
+
+.bloco{
+    display: flex;
+    background-color: #fff;
+    border-radius: 0.75rem;
+    box-shadow: 0 0 14px #33333325;
+    width: 100%;
+    max-width: 37.5rem;
     justify-content: space-between;
-    
+    padding: 1rem;
+    flex-direction: column;
+    gap: 0.5rem;
 }
 
-.caixaNavegacao{
-    display: flex;
-    flex-direction: row;
-    white-space: nowrap;
+.tituloBloco{
+    color: #0B6374;
+    font-size: 1.25em;
 }
 
-.caixaFerramentas{
-    display: flex;
-    flex-direction: row;
-    width: 20%;
-
+.textoBloco{
+    color: #757575;
 }
 
-.item{
-    font-family: Arial, Helvetica, sans-serif;
-    color: white;
-    margin-right: 5%;
-    cursor: pointer;
+.link{
+    text-decoration: none;
+    color: #3D65CC;
 }
 
-.item:hover{
+.link:hover{
     text-decoration: underline;
 }
 
-.itemFerramenta{
-    font-family: Arial, Helvetica, sans-serif;
-    color: white;
-    margin-left: 5%;
-    cursor: pointer;
-}
-
-.itemFerramenta:hover{
-    text-decoration: underline;
-}
-
-@media (max-width: 1923px){
-
-    .caixaFerramentas{
-        margin-right: 5%;
-
+@media screen and (max-width: 1024px) {
+    .caixa{
+        min-height: calc(100vh - 27rem);
     }
-    
-}
-
-@media (max-width: 1300px){
-
-    .caixaFerramentas{
-        margin-right: 10%;
-
-    }
-    
-}
-
-@media (max-width: 1000px){
-
-    .caixaFerramentas{
-        margin-right: 15%;
-
-    }
-    
-}
-
-@media (max-width: 881px){
-    .item{
-        font-family: Arial, Helvetica, sans-serif;
-        color: white;
-        margin-right: 5%;
-        font-size: 15px;
-        cursor: pointer;
-    }
-
-    .itemFerramenta{
-        font-family: Arial, Helvetica, sans-serif;
-        color: white;
-        margin-left: 5%;
-        font-size: 15px;
-        cursor: pointer;
-    }
-    
-    .barraAcessibilidade{
-       display: flex;
-       flex-direction: column;
-       height: auto;
-       align-items: center;
-    }
-
-    .caixaNavegacao{
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        
-    }
-
-    .caixaFerramentas{
-        display: flex;     
-        flex-direction: row;
-        align-items: center;
-       
-    }
-    
-}
-
-@media (max-width: 477px){
-    .item{
-        font-family: Arial, Helvetica, sans-serif;
-        color: white;
-        margin-right: 2%;
-        font-size: 13px;
-        cursor: pointer;
-    }
-
-    .itemFerramenta{
-        font-family: Arial, Helvetica, sans-serif;
-        color: white;
-        margin-left: 2%;
-        font-size: 13px;
-        cursor: pointer;
-    }
-    
-    .barraAcessibilidade{
-       display: flex;
-       flex-direction: column;
-       height: auto;
-       align-items: center;
-    }
-
-    .caixaNavegacao{
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        
-    }
-
-    .caixaFerramentas{
-        display: flex;     
-        flex-direction: row;
-        align-items: center;
-       
-    }
-    
 }

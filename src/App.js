@@ -10,6 +10,7 @@ import Pesquisa from './pages/Pesquisa'
 import Administracao from './pages/Administracao'
 import LoginCliente from './pages/LoginCliente';
 import LoginAdm from './pages/LoginADM';
+import BotaoAcessibilidade from "./components/BotaoAcessibilidade";
 
 
 function App() {
@@ -29,6 +30,7 @@ function App() {
               <Route path="/LoginAdm" element={<LoginAdm/>}/>
           </Routes>
       </Router>
+      <BotaoAcessibilidade/>
     </div>
   );
 }
