@@ -5,10 +5,37 @@ import styles from './Subcategorias.module.css'
 const ListaBestSellers = () => {
     return(
         <div className={styles.caixaSubcategorias}>
-            <ul className={styles.ListaBestSellers}>
-                <li>Item 1</li>
-                <li>Item 2</li>
-                <li>Item 3</li>
+            <ul className={styles.subcategorias}>
+                <li>
+                    <div className={styles.item1}>
+                        <a className={styles.linkLista} href="/Pesquisa">Ficção</a>
+                    </div>
+                </li>
+                <li>
+                    <div className={styles.item2}>
+                        <a className={styles.linkLista} href="/Pesquisa">Fantasia</a>
+                    </div>
+                 </li>
+                <li>
+                    <div className={styles.item3}>
+                        <a className={styles.linkLista} href="/Pesquisa">Terror</a>
+                    </div>        
+                </li>
+                <li>
+                    <div className={styles.item4}>
+                        <a className={styles.linkLista} href="/Pesquisa">Bibliografias</a>
+                    </div>
+                </li>
+                <li>
+                   <div className={styles.item5}> 
+                        <a className={styles.linkLista} href="/Pesquisa">Nacionais</a>
+                   </div>
+                </li>
+                <li>
+                   <div className={styles.item6}> 
+                        <a className={styles.linkLista} href="/Pesquisa">Clássicos</a>
+                   </div>    
+                </li>
             </ul>
         </div>
     )
@@ -17,10 +44,37 @@ const ListaBestSellers = () => {
 const ListaEbooks = () => {
     return(
         <div className={styles.caixaSubcategorias}>
-            <ul className={styles.ListaEbooks}>
-                <li>Item 4</li>
-                <li>Item 5</li>
-                <li>Item 6</li>
+            <ul className={styles.subcategorias}>
+                <li>
+                    <div className={styles.item1}>
+                        <a className={styles.linkLista} href="/Pesquisa">Ficção</a>
+                    </div>
+                </li>
+                <li>
+                    <div className={styles.item2}>
+                        <a className={styles.linkLista} href="/Pesquisa">Fantasia</a>
+                    </div>
+                 </li>
+                <li>
+                    <div className={styles.item3}>
+                        <a className={styles.linkLista} href="/Pesquisa">Terror</a>
+                    </div>        
+                </li>
+                <li>
+                    <div className={styles.item4}>
+                        <a className={styles.linkLista} href="/Pesquisa">Bibliografias</a>
+                    </div>
+                </li>
+                <li>
+                   <div className={styles.item5}> 
+                        <a className={styles.linkLista} href="/Pesquisa">Nacionais</a>
+                   </div>
+                </li>
+                <li>
+                   <div className={styles.item6}> 
+                        <a className={styles.linkLista} href="/Pesquisa">Grandes</a>
+                   </div>    
+                </li>
             </ul>
         </div>
     )
@@ -29,10 +83,37 @@ const ListaEbooks = () => {
 const ListaLancamentos = () => {
     return(
         <div className={styles.caixaSubcategorias}>
-            <ul className={styles.ListaLancamentos}>
-                <li>Item 7</li>
-                <li>Item 8</li>
-                <li>Item 9</li>
+            <ul className={styles.subcategorias}>
+                <li>
+                    <div className={styles.item1}>
+                        <a className={styles.linkLista} href="/Pesquisa">Ficção</a>
+                    </div>
+                </li>
+                <li>
+                    <div className={styles.item2}>
+                        <a className={styles.linkLista} href="/Pesquisa">Fantasia</a>
+                    </div>
+                 </li>
+                <li>
+                    <div className={styles.item3}>
+                        <a className={styles.linkLista} href="/Pesquisa">Terror</a>
+                    </div>        
+                </li>
+                <li>
+                    <div className={styles.item4}>
+                        <a className={styles.linkLista} href="/Pesquisa">Bibliografias</a>
+                    </div>
+                </li>
+                <li>
+                   <div className={styles.item5}> 
+                        <a className={styles.linkLista} href="/Pesquisa">Nacionais</a>
+                   </div>
+                </li>
+                <li>
+                   <div className={styles.item6}> 
+                        <a className={styles.linkLista} href="/Pesquisa">Grandes</a>
+                   </div>    
+                </li>
             </ul>
         </div>
     )
@@ -41,10 +122,37 @@ const ListaLancamentos = () => {
 const ListaRomances = () => {
     return(
         <div className={styles.caixaSubcategorias}>
-            <ul className={styles.ListaRomances}>
-                <li>Item 10</li>
-                <li>Item 11</li>
-                <li>Item 12</li>
+            <ul className={styles.subcategorias}>
+                <li>
+                    <div className={styles.item1}>
+                        <a className={styles.linkLista} href="/Pesquisa">Ficção</a>
+                    </div>
+                </li>
+                <li>
+                    <div className={styles.item2}>
+                        <a className={styles.linkLista} href="/Pesquisa">Fantasia</a>
+                    </div>
+                 </li>
+                <li>
+                    <div className={styles.item3}>
+                        <a className={styles.linkLista} href="/Pesquisa">Terror</a>
+                    </div>        
+                </li>
+                <li>
+                    <div className={styles.item4}>
+                        <a className={styles.linkLista} href="/Pesquisa">Bibliografias</a>
+                    </div>
+                </li>
+                <li>
+                   <div className={styles.item5}> 
+                        <a className={styles.linkLista} href="/Pesquisa">Nacionais</a>
+                   </div>
+                </li>
+                <li>
+                   <div className={styles.item6}> 
+                        <a className={styles.linkLista} href="/Pesquisa">Grandes</a>
+                   </div>    
+                </li>
             </ul>
         </div>
     )
@@ -53,10 +161,37 @@ const ListaRomances = () => {
 const ListaMangas = () => {
     return(
         <div className={styles.caixaSubcategorias}>
-            <ul className={styles.Mangas}>
-                <li>Item 13</li>
-                <li>Item 14</li>
-                <li>Item 15</li>
+            <ul className={styles.subcategorias}>
+                <li>
+                    <div className={styles.item1}>
+                        <a className={styles.linkLista} href="/Pesquisa">Ficção</a>
+                    </div>
+                </li>
+                <li>
+                    <div className={styles.item2}>
+                        <a className={styles.linkLista} href="/Pesquisa">Fantasia</a>
+                    </div>
+                 </li>
+                <li>
+                    <div className={styles.item3}>
+                        <a className={styles.linkLista} href="/Pesquisa">Terror</a>
+                    </div>        
+                </li>
+                <li>
+                    <div className={styles.item4}>
+                        <a className={styles.linkLista} href="/Pesquisa">Bibliografias</a>
+                    </div>
+                </li>
+                <li>
+                   <div className={styles.item5}> 
+                        <a className={styles.linkLista} href="/Pesquisa">Nacionais</a>
+                   </div>
+                </li>
+                <li>
+                   <div className={styles.item6}> 
+                        <a className={styles.linkLista} href="/Pesquisa">Grandes</a>
+                   </div>    
+                </li>
             </ul>
         </div>
     )
@@ -65,10 +200,37 @@ const ListaMangas = () => {
 const ListaHQs = () => {
     return(
         <div className={styles.caixaSubcategorias}>
-            <ul className={styles.ListaHQs}>
-                <li>Item 16</li>
-                <li>Item 17</li>
-                <li>Item 18</li>
+            <ul className={styles.subcategorias}>
+                <li>
+                    <div className={styles.item1}>
+                        <a className={styles.linkLista} href="/Pesquisa">Ficção</a>
+                    </div>
+                </li>
+                <li>
+                    <div className={styles.item2}>
+                        <a className={styles.linkLista} href="/Pesquisa">Fantasia</a>
+                    </div>
+                 </li>
+                <li>
+                    <div className={styles.item3}>
+                        <a className={styles.linkLista} href="/Pesquisa">Terror</a>
+                    </div>        
+                </li>
+                <li>
+                    <div className={styles.item4}>
+                        <a className={styles.linkLista} href="/Pesquisa">Bibliografias</a>
+                    </div>
+                </li>
+                <li>
+                   <div className={styles.item5}> 
+                        <a className={styles.linkLista} href="/Pesquisa">Nacionais</a>
+                   </div>
+                </li>
+                <li>
+                   <div className={styles.item6}> 
+                        <a className={styles.linkLista} href="/Pesquisa">Grandes</a>
+                   </div>    
+                </li>
             </ul>
         </div>
     )

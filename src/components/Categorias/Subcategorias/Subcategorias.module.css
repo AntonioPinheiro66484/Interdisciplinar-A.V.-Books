@@ -1,11 +1,71 @@
 .caixaSubcategorias{
-    display: flex;
+    flex-direction: column;
+    
+}
+
+.subcategorias{
     border: 3px solid #4c3d5f;
     position: absolute;
-    top: 0;
+    align-items: center;
+    justify-content: center;
+    width: 90px;
+    top: 0px;
     left: 100%;
-    margin-top: 0;
-    padding: 10px;
-    background-color: #f0f0f0;
-    width: 20%;
+    background-color: #f1f1f1;
+    height: 165.75px;
+    margin-left: 1.75%;
+    border-top-right-radius: 10%;
+    border-bottom-right-radius: 10%;
+
+}
+
+.item1{
+    color: #ffffff;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    
+}
+
+.linkLista:link{
+    text-decoration: none;
+    color: #4c3d5f;
+    font-size: small;
+    font-weight:550;
+}
+
+.linkLista:visited{
+    color: #4c3d5f;
+    text-decoration: none
+}
+
+.item2{
+    color: #ffffff;
+    padding-bottom: 12px;
+}
+
+.item3{
+    color: #ffffff;
+    padding-bottom: 12px;
+}
+
+.item4{
+    color: #ffffff;
+    padding-bottom: 12px;
+}
+
+.item5{
+    color: #ffffff;
+    padding-bottom: 12px;
+}
+
+.item6{
+    color: #ffffff;
+}
+
+.linkLista:link:hover{
+    text-decoration: underline;
+}
+
+.linkLista:visited:hover{
+    text-decoration: underline;
 }
