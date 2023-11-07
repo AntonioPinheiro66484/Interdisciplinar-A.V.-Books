@@ -9,6 +9,7 @@
     font-weight: 700;
     font-size: 18px;
     border: 2px solid #8163a6;
+    border-radius: 5px;
     cursor:pointer;
     color: #8163a6;
 }

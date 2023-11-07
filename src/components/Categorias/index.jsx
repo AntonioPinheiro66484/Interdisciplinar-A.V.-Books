@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import styles from './Categorias.module.css'
-import {ListaBestSellers, ListaEbooks, ListaLancamentos, ListaRomances, ListaMangas, ListaHQs} from './Subcategorias/Subcategorias'
+import {ListaBestSellers, ListaEbooks, ListaLancamentos, ListaRomances, ListaMangas, ListaHQs} from './Subcategorias'
 
 
 const DropdownMenu = () => {

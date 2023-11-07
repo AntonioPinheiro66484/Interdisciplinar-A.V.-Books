@@ -34,8 +34,10 @@ const Header = () => {
                </a>
             </div>
             <div className={styles.caixaIcone3}>
-               <img className={styles.icon3} src={Carrinho} alt="icone de carrinho do cliente"/>
-               <div className={styles.tituloCarrinho}>Carrinho</div>
+               <a className={styles.links} href='/Carrinho'>
+                  <img className={styles.icon3} src={Carrinho} alt="icone de carrinho do cliente"/>
+                  <div className={styles.tituloCarrinho}>Carrinho</div>
+               </a>
             </div>
          </div>
 

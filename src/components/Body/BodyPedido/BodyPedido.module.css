@@ -3,6 +3,7 @@
     font-size: 24px;
     font-weight: bold;
     padding: 10px;
+    color: #4c3d5f
 }
 
 .recomendado{
@@ -17,17 +18,18 @@
     font-family: Arial, Helvetica, sans-serif;
         font-size: 32px;
         font-weight: bold;
-        color: 979797;
+        color: #4c3d5f;
         margin-top: 25px;
 }
 
 dl{
-    border: 2px solid #000000;
+    border: 2px solid #4c3d5f;
     width: 35%;
     margin: 0 auto;
     float: center;
     padding: 0 10px 10px 10px;
     margin-top: 30px;
+    color: #4c3d5f;
 }
 
   dt {
@@ -35,6 +37,7 @@ dl{
     clear: left;
     font-weight: bold;
     margin: 10px 0 0 0;
+    color: #4c3d5f;
   }
   dt::after {
     content: ":";
@@ -42,6 +45,7 @@ dl{
   dd {
     text-align: left;
     margin: 10px 0 0 200px;
+    color: #4c3d5f; 
   }
 
 .textodescricao{
@@ -49,6 +53,7 @@ dl{
     font-size: 20px;
     margin: 10px 100px 10px 100px;
     text-align: justify;
+    color:#4c3d5f
 }
 
 

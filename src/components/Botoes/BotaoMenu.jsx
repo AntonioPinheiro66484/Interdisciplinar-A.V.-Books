@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import styles from './BotaoMenu.module.css'
 import MenuImg from '../../assets/icons/menu.png'; 
-import Menu from '../Categorias/Categorias'
+import Menu from '../Categorias'
 
 const DropdownButton = () => {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);

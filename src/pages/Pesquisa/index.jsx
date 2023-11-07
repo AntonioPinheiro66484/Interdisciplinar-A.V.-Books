@@ -1,5 +1,4 @@
 import React from "react";
-import { useState } from 'react'
 import styles from "./Pesquisa.module.css"
 import Header from "../../components/Header";
 import PreFooter from "../../components/Footer/Prefooter";
@@ -13,8 +12,6 @@ import Decrementar from "../../components/Botoes/Paginacao/Decrementar";
 
 const Pesquisa =()=>{
     
-   const [isFiltro, setIsFiltro]=useState(false);
-
 
     return(
         <div className={styles.paginaPesquisa}>

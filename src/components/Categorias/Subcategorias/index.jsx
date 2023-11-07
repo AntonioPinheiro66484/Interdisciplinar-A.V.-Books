@@ -72,7 +72,7 @@ const ListaEbooks = () => {
                 </li>
                 <li>
                    <div className={styles.item6}> 
-                        <a className={styles.linkLista} href="/Pesquisa">Grandes</a>
+                        <a className={styles.linkLista} href="/Pesquisa">Clássicos</a>
                    </div>    
                 </li>
             </ul>
@@ -111,7 +111,7 @@ const ListaLancamentos = () => {
                 </li>
                 <li>
                    <div className={styles.item6}> 
-                        <a className={styles.linkLista} href="/Pesquisa">Grandes</a>
+                        <a className={styles.linkLista} href="/Pesquisa">Clássicos</a>
                    </div>    
                 </li>
             </ul>
@@ -150,7 +150,7 @@ const ListaRomances = () => {
                 </li>
                 <li>
                    <div className={styles.item6}> 
-                        <a className={styles.linkLista} href="/Pesquisa">Grandes</a>
+                        <a className={styles.linkLista} href="/Pesquisa">Clássicos</a>
                    </div>    
                 </li>
             </ul>
@@ -189,7 +189,7 @@ const ListaMangas = () => {
                 </li>
                 <li>
                    <div className={styles.item6}> 
-                        <a className={styles.linkLista} href="/Pesquisa">Grandes</a>
+                        <a className={styles.linkLista} href="/Pesquisa">Clássicos</a>
                    </div>    
                 </li>
             </ul>
@@ -228,7 +228,7 @@ const ListaHQs = () => {
                 </li>
                 <li>
                    <div className={styles.item6}> 
-                        <a className={styles.linkLista} href="/Pesquisa">Grandes</a>
+                        <a className={styles.linkLista} href="/Pesquisa">Clássicos</a>
                    </div>    
                 </li>
             </ul>

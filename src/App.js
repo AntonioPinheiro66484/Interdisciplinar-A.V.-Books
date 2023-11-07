@@ -6,6 +6,7 @@ import CadastroLivro from './pages/CadastroLivro'
 import CadastroFornecedor from './pages/CadastroFornecedor'
 import CadastroPedido from './pages/CadastroPedido'
 import DetalhesProduto from './pages/DetalhesProduto'
+import Carrinho from './pages/Carrinho/index'
 import Pesquisa from './pages/Pesquisa'
 import Administracao from './pages/Administracao'
 import LoginCliente from './pages/LoginCliente';
@@ -25,6 +26,7 @@ function App() {
               <Route path="/CadastroLivro" element={<CadastroLivro/>}/>
               <Route path="/CadastroFornecedor" element={<CadastroFornecedor/>}/>
               <Route path="/CadastroPedido" element={<CadastroPedido/>}/>
+              <Route path="/Carrinho" element={<Carrinho/>}/>
               <Route path="/Administracao" element={<Administracao/>}/>
               <Route path="/LoginCliente" element={<LoginCliente/>}/>
               <Route path="/LoginAdm" element={<LoginAdm/>}/>
