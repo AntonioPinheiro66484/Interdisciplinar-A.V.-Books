@@ -9,9 +9,9 @@ import DetalhesProduto from './pages/DetalhesProduto'
 import Carrinho from './pages/Carrinho/index'
 import Pesquisa from './pages/Pesquisa'
 import Administracao from './pages/Administracao'
-import LoginCliente from './pages/LoginCliente';
-import LoginAdm from './pages/LoginADM';
-import BotaoAcessibilidade from "./components/BotaoAcessibilidade";
+import LoginCliente from './pages/LoginCliente'
+import LoginAdm from './pages/LoginADM'
+import BotaoAcessibilidade from "./components/BotaoAcessibilidade"
 
 
 function App() {
