@@ -11,13 +11,12 @@ import BotaoForms from '../../components/Botoes/Adm/BotaoForms'
 import BotaoTables from '../../components/Botoes/Adm/BotaoTables'
 import BotaoCalendar from '../../components/Botoes/Adm/BotaoCalendar'
 import BotaoErrors from '../../components/Botoes/Adm/BotaoErrors'
+import SubFooter from '../../components/Footer/Subfooter'
 
 const Administracao = ()=>{
     return(
         <div>
-        <Acessibilidade></Acessibilidade>
-        <HeaderADM></HeaderADM>
-        <NavBarADM></NavBarADM>
+        <HeaderADM/>
         <div className={styles.botao}>
             <BotaoCharts/>
             <BotaoDashboard/>
@@ -26,7 +25,9 @@ const Administracao = ()=>{
             <BotaoCalendar/>
             <BotaoErrors/>
         </div>
-        <Footer></Footer>
+        <PreFooter/>
+        <Footer/>
+        <SubFooter/>
 
         </div>
     )

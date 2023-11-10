@@ -1,6 +1,6 @@
 .botao{
-    height: 25%;
-    width: 25%;
+    height: 15%;
+    width: 15%;
     background-color: #6B0EE2;
     border-radius: 20px;
     font-weight: 700;
@@ -13,8 +13,8 @@
 
 .logo{
     margin: 1.5%;
-    height: 50%;
-    width: 50%;
+    height: 10%;
+    width: 10%;
 }
 
 @media (max-width: 750px){

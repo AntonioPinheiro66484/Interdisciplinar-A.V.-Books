@@ -147,6 +147,37 @@
 
 /* Responsividade do header*/
 
+@media (max-width: 1402px){
+    .barraPesquisa{
+        width: 550px;
+        margin-left: 10px;
+    }
+}
+
+@media (max-width: 1310px){
+    .barraPesquisa{
+        width: 500px;
+        margin-left: 20px;
+    }
+}
+
+@media (max-width: 1192px){
+    .barraPesquisa{
+        margin-left: 30px;
+    }
+}
+
+@media (max-width: 1068px){
+    .barraPesquisa{
+        width: 460px;
+        margin-left: 40px;
+    }
+
+    .caixaIcon2{
+        margin-left: 80px;
+    }
+}
+
 @media (max-width: 960px){
     .barraPesquisa{
         padding-left: 10px;

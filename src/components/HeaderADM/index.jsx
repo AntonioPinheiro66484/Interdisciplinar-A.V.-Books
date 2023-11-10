@@ -8,9 +8,6 @@ const HeaderADM = () => {
          <img className={styles.logo} src={AvBookslogo}/>
          <div className={styles.titulosLogoSite}>A.V. Books</div>
        </div>
-       <div className={styles.quadrado}>
-         Administração
-         </div>
       </header>
   )
 }
