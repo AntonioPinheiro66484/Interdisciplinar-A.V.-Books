@@ -12,7 +12,7 @@ const BotaoAcessibilidade =()=>{
         <div className={styles.caixa}>
             <ul className={botaoAcessibilidade ? styles.caixaOpcoesAtivado : styles.caixaOpcoesDesativado}>
                 <li>
-                    <a className={styles.botaoSecundario} href="/acessibilidade">
+                    <a className={styles.botaoSecundario} href="/Acessibilidade">
                        <Icon icon="material-symbols:info-outline"/>
                     </a>
                 </li>

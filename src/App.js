@@ -12,6 +12,7 @@ import Administracao from './pages/Administracao'
 import LoginCliente from './pages/LoginCliente'
 import LoginAdm from './pages/LoginADM'
 import BotaoAcessibilidade from "./components/BotaoAcessibilidade"
+import Acessibilidade from './components/Acessibilidade';
 
 
 function App() {
@@ -27,6 +28,7 @@ function App() {
               <Route path="/CadastroFornecedor" element={<CadastroFornecedor/>}/>
               <Route path="/CadastroPedido" element={<CadastroPedido/>}/>
               <Route path="/Carrinho" element={<Carrinho/>}/>
+              <Route path="/Acessibilidade" element={<Acessibilidade/>}/>
               <Route path="/Administracao" element={<Administracao/>}/>
               <Route path="/LoginCliente" element={<LoginCliente/>}/>
               <Route path="/LoginAdm" element={<LoginAdm/>}/>
