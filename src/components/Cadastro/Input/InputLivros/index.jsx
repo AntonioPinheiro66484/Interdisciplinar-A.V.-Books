@@ -17,22 +17,22 @@ const InputLivros = () => {
 
         <div className={styles.campoTexto}>
             <label class={styles.label}>Autor</label>
-            <input className={styles.input} type="email" placeholder="Digite o nome do autor..."></input>
+            <input className={styles.input} type="text" placeholder="Digite o nome do autor..."></input>
         </div>
 
         <div className={styles.campoTexto}>
             <label class={styles.label}>Editora</label>
-            <input className={styles.input} type="password" placeholder="Digite o nome da editora do livro..."></input>
+            <input className={styles.input} type="text" placeholder="Digite o nome da editora do livro..."></input>
         </div>
 
         <div className={styles.campoTexto}>
             <label class={styles.label}>Genero</label>
-            <input className={styles.input} type="password" placeholder="Digite o genero do livro..."></input>
+            <input className={styles.input} type="text" placeholder="Digite o genero do livro..."></input>
         </div>
 
         <div className={styles.campoTexto}>
             <label class={styles.label}>Preço</label>
-            <input className={styles.input} type="password" placeholder="Digite o preço do livro..."></input>
+            <input className={styles.input} type="text" placeholder="Digite o preço do livro..."></input>
         </div>
 
     </div>
