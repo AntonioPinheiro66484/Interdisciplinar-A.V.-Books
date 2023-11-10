@@ -9,7 +9,6 @@ import Acessibilidade from "../../components/Acessibilidade";
 function CadastroPedido() {
   return (
     <div>
-        <Acessibilidade/>
         <Header></Header>
         <NavBarADM></NavBarADM>
         <FormularioPedido></FormularioPedido>

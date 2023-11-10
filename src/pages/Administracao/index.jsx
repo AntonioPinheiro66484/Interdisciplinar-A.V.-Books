@@ -2,9 +2,9 @@ import React from 'react'
 import styles from './Administracao.module.css'
 import HeaderADM from "../../components/HeaderADM";
 import NavBarADM from "../../components/NavBarADM";
-import PreFooter from "../../components/Footer/Prefooter";
+
 import Footer from "../../components/Footer";
-import Acessibilidade from "../../components/Acessibilidade"
+import Acessibilidade from "../../components/Acessibilidade/index"
 import BotaoCharts from '../../components/Botoes/Adm/BotaoCharts'
 import BotaoDashboard from '../../components/Botoes/Adm/BotaoDashboard'
 import BotaoForms from '../../components/Botoes/Adm/BotaoForms'

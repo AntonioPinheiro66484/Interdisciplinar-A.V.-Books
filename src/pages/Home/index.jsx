@@ -1,5 +1,4 @@
 import React from "react";
-import styles from "./Home.module.css";
 import Header from "../../components/Header";
 import SubFooter from "../../components/Footer/Subfooter";
 import Body from "../../components/Body";
