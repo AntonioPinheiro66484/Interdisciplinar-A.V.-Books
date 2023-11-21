@@ -2,10 +2,6 @@ import React from 'react'
 import styles from './Administracao.module.css'
 import Header from "../../components/Header/index";
 import NavBarADM from "../../components/NavBarADM";
-<<<<<<< HEAD
-=======
-import PreFooter from "../../components/Footer/Prefooter"
->>>>>>> 166031bb3c81b0b20d80ae7299e989f2a897254f
 import Footer from "../../components/Footer";
 import Acessibilidade from "../../components/Acessibilidade/index"
 import BotaoCharts from '../../components/Botoes/Adm/BotaoCharts'
